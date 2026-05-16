@@ -7,13 +7,13 @@
 #define MAX_SEQ 15
 #define NR_BUFS ((MAX_SEQ + 1) / 2)
 
-#define DATA_TIMER 1500
+#define DATA_TIMER 2200
 #define ACK_TIMER 120
 
 #define DATA_FRAME_LEN (3 + PKT_LEN + 4)
 #define CTRL_FRAME_LEN (2 + 4)
 #define FRAME_WIRE_BYTES(len) (2 * (len) + 2)
-#define MAX_PHL_BACKLOG (NR_BUFS * FRAME_WIRE_BYTES(DATA_FRAME_LEN))
+#define MAX_PHL_BACKLOG (3 * FRAME_WIRE_BYTES(DATA_FRAME_LEN))
 
 struct FRAME {
     unsigned char kind;

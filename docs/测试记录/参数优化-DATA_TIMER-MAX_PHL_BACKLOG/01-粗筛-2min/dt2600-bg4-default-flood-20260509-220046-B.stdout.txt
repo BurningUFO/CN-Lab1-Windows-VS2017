@@ -1,0 +1,2600 @@
+000.000 =============================================================
+000.000                     Station B                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
+000.000 Log file "C:\Users\YOUNG\Desktop\workplace\2025_2026_2\计算机网络\lab\Lab1-DataLink(Win+Linux)(1)\Lab1-Windows-VS2017\docs\测试记录\参数优化-DATA_TIMER-MAX_PHL_BACKLOG\01-粗筛-2min\dt2600-bg4-default-flood-20260509-220046-B.log", TCP port 59919, debug mask 0x07
+000.000 Station B is connecting station A (TCP port 59919) ... Done.
+000.530 New epoch: Sat May  9 22:00:48 2026
+000.530 =================================================================
+000.530 
+000.530 Designed by Jiang Yanjun, build: May  9 2026  22:00:47
+000.530 Send DATA 0 15, ID 20000
+000.530 Send DATA 1 15, ID 20001
+000.530 Send DATA 2 15, ID 20002
+000.530 Send DATA 3 15, ID 20003
+001.086 Recv DATA 0 15, ID 10000
+001.086 Deliver DATA 0, ID 10000
+001.086 Slide RECV window, expect 1 next
+001.087 Send DATA 4 0, ID 20004
+001.087 Send DATA 5 0, ID 20005
+001.087 Send DATA 6 0, ID 20006
+001.356 Recv DATA 1 15, ID 10001
+001.356 Deliver DATA 1, ID 10001
+001.356 Slide RECV window, expect 2 next
+001.356 Send DATA 7 1, ID 20007
+001.611 Recv DATA 2 15, ID 10002
+001.611 Deliver DATA 2, ID 10002
+001.611 Slide RECV window, expect 3 next
+001.737 ---- ACK timeout
+001.737 Send ACK  2
+001.880 Recv DATA 3 15, ID 10003
+001.880 Deliver DATA 3, ID 10003
+001.880 Slide RECV window, expect 4 next
+002.007 ---- ACK timeout
+002.007 Send ACK  3
+002.133 Recv DATA 4 0, ID 10004
+002.133 Deliver DATA 4, ID 10004
+002.133 Slide RECV window, expect 5 next
+002.133 Acked DATA 0, slide SEND window
+002.133 Send DATA 8 4, ID 20008
+002.387 Recv DATA 5 0, ID 10005
+002.387 Deliver DATA 5, ID 10005
+002.387 Slide RECV window, expect 6 next
+002.514 ---- ACK timeout
+002.514 Send ACK  5
+002.673 Recv DATA 6 0, ID 10006
+002.673 Deliver DATA 6, ID 10006
+002.673 Slide RECV window, expect 7 next
+002.800 ---- ACK timeout
+002.800 Send ACK  6
+002.943 Recv DATA 7 1, ID 10007
+002.944 Deliver DATA 7, ID 10007
+002.944 .... 8 packets received, 7642 bps, 95.52%, Err 0 (0.0e+00)
+002.944 Slide RECV window, expect 8 next
+002.944 Acked DATA 1, slide SEND window
+002.944 Send DATA 9 7, ID 20009
+002.975 Recv ACK  2
+002.975 Acked DATA 2, slide SEND window
+002.976 Send DATA 10 7, ID 20010
+003.007 Recv NAK  3
+003.007 ---- Resend DATA 3 on NAK
+003.007 Send DATA 3 7, ID 20003
+003.214 Recv DATA 8 2, ID 10008
+003.214 Deliver DATA 8, ID 10008
+003.214 Slide RECV window, expect 9 next
+003.341 ---- ACK timeout
+003.341 Send ACK  8
+003.484 Recv DATA 9 2, ID 10009
+003.484 Deliver DATA 9, ID 10009
+003.484 Slide RECV window, expect 10 next
+003.612 ---- ACK timeout
+003.612 Send ACK  9
+003.738 Recv DATA 10 2, ID 10010
+003.738 Deliver DATA 10, ID 10010
+003.738 Slide RECV window, expect 11 next
+003.866 ---- ACK timeout
+003.866 Send ACK  10
+003.992 Recv DATA 11 2, ID 10011
+003.992 Deliver DATA 11, ID 10011
+003.992 Slide RECV window, expect 12 next
+004.119 ---- ACK timeout
+004.119 Send ACK  11
+004.198 Impose noise on received data, 1/29344=3.4E-05
+004.262 Recv DATA 12 2, ID 10012
+004.262 Deliver DATA 12, ID 10012
+004.262 Slide RECV window, expect 13 next
+004.389 ---- ACK timeout
+004.389 Send ACK  12
+004.531 **** Receiver Error, Bad CRC Checksum
+004.531 Request NAK for 13
+004.531 Send NAK  13
+004.801 Recv DATA 14 2, ID 10014
+005.055 Recv DATA 15 2, ID 10015
+005.214 ---- DATA 4 timeout
+005.214 Send DATA 4 12, ID 20004
+005.326 Recv DATA 0 10, ID 10016
+005.326 Acked DATA 3, slide SEND window
+005.326 Acked DATA 4, slide SEND window
+005.326 Acked DATA 5, slide SEND window
+005.326 Acked DATA 6, slide SEND window
+005.326 Acked DATA 7, slide SEND window
+005.326 Acked DATA 8, slide SEND window
+005.326 Acked DATA 9, slide SEND window
+005.326 Acked DATA 10, slide SEND window
+005.326 Send DATA 11 12, ID 20011
+005.326 Send DATA 12 12, ID 20012
+005.326 Send DATA 13 12, ID 20013
+005.326 Send DATA 14 12, ID 20014
+005.596 Recv DATA 1 10, ID 10017
+005.597 Send DATA 15 12, ID 20015
+005.850 Recv DATA 2 10, ID 10018
+005.850 Send DATA 0 12, ID 20016
+006.105 Recv DATA 3 10, ID 10019
+006.105 Send DATA 1 12, ID 20017
+006.375 Recv DATA 4 10, ID 10020
+006.375 Send DATA 2 12, ID 20018
+006.646 Recv DATA 13 10, ID 10013
+006.646 Deliver DATA 13, ID 10013
+006.646 .... 14 packets received, 4904 bps, 61.30%, Err 1 (2.1e-05)
+006.646 Deliver DATA 14, ID 10014
+006.646 Deliver DATA 15, ID 10015
+006.646 Deliver DATA 0, ID 10016
+006.646 Deliver DATA 1, ID 10017
+006.646 Deliver DATA 2, ID 10018
+006.646 Deliver DATA 3, ID 10019
+006.646 Deliver DATA 4, ID 10020
+006.646 Slide RECV window, expect 5 next
+006.678 Recv ACK  10
+006.773 ---- ACK timeout
+006.773 Send ACK  4
+006.947 Recv ACK  11
+006.947 Acked DATA 11, slide SEND window
+006.948 Send DATA 3 4, ID 20019
+007.218 Recv ACK  12
+007.218 Acked DATA 12, slide SEND window
+007.218 Send DATA 4 4, ID 20020
+007.486 Recv ACK  13
+007.486 Acked DATA 13, slide SEND window
+007.486 Send DATA 5 4, ID 20021
+007.755 Recv ACK  14
+007.755 Acked DATA 14, slide SEND window
+007.755 Send DATA 6 4, ID 20022
+008.010 Recv ACK  15
+008.010 Acked DATA 15, slide SEND window
+008.010 Send DATA 7 4, ID 20023
+008.183 Recv ACK  0
+008.183 Acked DATA 0, slide SEND window
+008.184 Send DATA 8 4, ID 20024
+008.215 Recv ACK  1
+008.215 Acked DATA 1, slide SEND window
+008.216 Send DATA 9 4, ID 20025
+008.420 Recv DATA 5 2, ID 10021
+008.420 Deliver DATA 5, ID 10021
+008.420 Slide RECV window, expect 6 next
+008.420 Acked DATA 2, slide SEND window
+008.421 Send DATA 10 5, ID 20026
+008.689 Recv DATA 6 2, ID 10022
+008.689 Deliver DATA 6, ID 10022
+008.689 .... 23 packets received, 5970 bps, 74.63%, Err 1 (1.9e-05)
+008.689 Slide RECV window, expect 7 next
+008.817 ---- ACK timeout
+008.817 Send ACK  6
+008.958 Recv DATA 7 2, ID 10023
+008.958 Deliver DATA 7, ID 10023
+008.958 Slide RECV window, expect 8 next
+009.086 ---- ACK timeout
+009.086 Send ACK  7
+009.229 Recv DATA 8 2, ID 10024
+009.229 Deliver DATA 8, ID 10024
+009.229 Slide RECV window, expect 9 next
+009.356 ---- ACK timeout
+009.356 Send ACK  8
+009.467 Recv DATA 9 2, ID 10025
+009.467 Deliver DATA 9, ID 10025
+009.467 Slide RECV window, expect 10 next
+009.498 Recv ACK  3
+009.498 Acked DATA 3, slide SEND window
+009.499 Send DATA 11 9, ID 20027
+009.750 Recv DATA 10 3, ID 10026
+009.750 Deliver DATA 10, ID 10026
+009.750 Slide RECV window, expect 11 next
+009.766 Recv ACK  4
+009.766 Acked DATA 4, slide SEND window
+009.766 Send DATA 12 10, ID 20028
+010.020 Recv DATA 11 4, ID 10027
+010.020 Deliver DATA 11, ID 10027
+010.020 Slide RECV window, expect 12 next
+010.036 Recv ACK  5
+010.036 Acked DATA 5, slide SEND window
+010.036 Send DATA 13 11, ID 20029
+010.289 Recv DATA 12 5, ID 10028
+010.289 Deliver DATA 12, ID 10028
+010.289 Slide RECV window, expect 13 next
+010.305 Recv ACK  6
+010.305 Acked DATA 6, slide SEND window
+010.305 Send DATA 14 12, ID 20030
+010.337 Recv ACK  7
+010.337 Acked DATA 7, slide SEND window
+010.337 Send DATA 15 12, ID 20031
+010.369 Recv ACK  8
+010.369 Acked DATA 8, slide SEND window
+010.369 Send DATA 0 12, ID 20032
+010.401 Recv ACK  9
+010.401 Acked DATA 9, slide SEND window
+010.401 Send DATA 1 12, ID 20033
+010.575 Recv DATA 13 10, ID 10029
+010.575 Deliver DATA 13, ID 10029
+010.575 Slide RECV window, expect 14 next
+010.575 Acked DATA 10, slide SEND window
+010.575 Send DATA 2 13, ID 20034
+010.845 Recv DATA 14 10, ID 10030
+010.845 Deliver DATA 14, ID 10030
+010.845 .... 31 packets received, 6320 bps, 79.00%, Err 1 (1.4e-05)
+010.845 Slide RECV window, expect 15 next
+010.972 ---- ACK timeout
+010.972 Send ACK  14
+011.099 Recv DATA 15 10, ID 10031
+011.099 Deliver DATA 15, ID 10031
+011.099 Slide RECV window, expect 0 next
+011.226 ---- ACK timeout
+011.226 Send ACK  15
+011.368 Recv DATA 0 10, ID 10032
+011.368 Deliver DATA 0, ID 10032
+011.369 Slide RECV window, expect 1 next
+011.495 ---- ACK timeout
+011.495 Send ACK  0
+011.638 Recv DATA 1 11, ID 10033
+011.638 Deliver DATA 1, ID 10033
+011.638 Slide RECV window, expect 2 next
+011.638 Acked DATA 11, slide SEND window
+011.638 Send DATA 3 1, ID 20035
+011.892 Recv DATA 2 12, ID 10034
+011.892 Deliver DATA 2, ID 10034
+011.892 Slide RECV window, expect 3 next
+011.892 Acked DATA 12, slide SEND window
+011.893 Send DATA 4 2, ID 20036
+012.162 Recv DATA 3 13, ID 10035
+012.162 Deliver DATA 3, ID 10035
+012.162 Slide RECV window, expect 4 next
+012.162 Acked DATA 13, slide SEND window
+012.163 Send DATA 5 3, ID 20037
+012.433 Recv DATA 4 14, ID 10036
+012.433 Deliver DATA 4, ID 10036
+012.433 Slide RECV window, expect 5 next
+012.433 Acked DATA 14, slide SEND window
+012.433 Send DATA 6 4, ID 20038
+012.464 Recv ACK  15
+012.464 Acked DATA 15, slide SEND window
+012.465 Send DATA 7 4, ID 20039
+012.496 Recv ACK  0
+012.496 Acked DATA 0, slide SEND window
+012.497 Send DATA 8 4, ID 20040
+012.528 Recv ACK  1
+012.528 Acked DATA 1, slide SEND window
+012.529 Send DATA 9 4, ID 20041
+012.735 Recv DATA 5 2, ID 10037
+012.735 Deliver DATA 5, ID 10037
+012.735 Slide RECV window, expect 6 next
+012.735 Acked DATA 2, slide SEND window
+012.736 Send DATA 10 5, ID 20042
+012.974 Recv DATA 6 2, ID 10038
+012.974 Deliver DATA 6, ID 10038
+012.974 .... 39 packets received, 6560 bps, 82.00%, Err 1 (1.1e-05)
+012.974 Slide RECV window, expect 7 next
+013.101 ---- ACK timeout
+013.101 Send ACK  6
+013.259 Recv DATA 7 2, ID 10039
+013.259 Deliver DATA 7, ID 10039
+013.259 Slide RECV window, expect 8 next
+013.387 ---- ACK timeout
+013.387 Send ACK  7
+013.498 Recv DATA 8 2, ID 10040
+013.498 Deliver DATA 8, ID 10040
+013.498 Slide RECV window, expect 9 next
+013.625 ---- ACK timeout
+013.625 Send ACK  8
+013.767 Recv DATA 9 3, ID 10041
+013.767 Deliver DATA 9, ID 10041
+013.767 Slide RECV window, expect 10 next
+013.767 Acked DATA 3, slide SEND window
+013.768 Send DATA 11 9, ID 20043
+014.037 Recv DATA 10 4, ID 10042
+014.037 Deliver DATA 10, ID 10042
+014.037 Slide RECV window, expect 11 next
+014.037 Acked DATA 4, slide SEND window
+014.037 Send DATA 12 10, ID 20044
+014.291 Recv DATA 11 5, ID 10043
+014.291 Deliver DATA 11, ID 10043
+014.291 Slide RECV window, expect 12 next
+014.291 Acked DATA 5, slide SEND window
+014.291 Send DATA 13 11, ID 20045
+014.559 Recv DATA 12 6, ID 10044
+014.559 Deliver DATA 12, ID 10044
+014.559 Slide RECV window, expect 13 next
+014.559 Acked DATA 6, slide SEND window
+014.559 Send DATA 14 12, ID 20046
+014.591 Recv ACK  7
+014.591 Acked DATA 7, slide SEND window
+014.591 Send DATA 15 12, ID 20047
+014.607 Recv ACK  8
+014.607 Acked DATA 8, slide SEND window
+014.607 Send DATA 0 12, ID 20048
+014.639 Recv ACK  9
+014.639 Acked DATA 9, slide SEND window
+014.639 Send DATA 1 12, ID 20049
+014.862 Recv DATA 13 10, ID 10045
+014.862 Deliver DATA 13, ID 10045
+014.862 Slide RECV window, expect 14 next
+014.862 Acked DATA 10, slide SEND window
+014.862 Send DATA 2 13, ID 20050
+015.131 Recv DATA 14 10, ID 10046
+015.131 Deliver DATA 14, ID 10046
+015.131 .... 47 packets received, 6716 bps, 83.95%, Err 1 (9.5e-06)
+015.132 Slide RECV window, expect 15 next
+015.259 ---- ACK timeout
+015.259 Send ACK  14
+015.369 Recv DATA 15 10, ID 10047
+015.370 Deliver DATA 15, ID 10047
+015.370 Slide RECV window, expect 0 next
+015.497 ---- ACK timeout
+015.497 Send ACK  15
+015.640 Recv DATA 0 10, ID 10048
+015.640 Deliver DATA 0, ID 10048
+015.640 Slide RECV window, expect 1 next
+015.767 ---- ACK timeout
+015.767 Send ACK  0
+015.895 Recv DATA 1 11, ID 10049
+015.895 Deliver DATA 1, ID 10049
+015.895 Slide RECV window, expect 2 next
+015.895 Acked DATA 11, slide SEND window
+015.895 Send DATA 3 1, ID 20051
+016.164 Recv DATA 2 12, ID 10050
+016.164 Deliver DATA 2, ID 10050
+016.164 Slide RECV window, expect 3 next
+016.164 Acked DATA 12, slide SEND window
+016.164 Send DATA 4 2, ID 20052
+016.434 Recv DATA 3 13, ID 10051
+016.434 Deliver DATA 3, ID 10051
+016.434 Slide RECV window, expect 4 next
+016.434 Acked DATA 13, slide SEND window
+016.435 Send DATA 5 3, ID 20053
+016.704 Recv DATA 4 14, ID 10052
+016.704 Deliver DATA 4, ID 10052
+016.704 Slide RECV window, expect 5 next
+016.704 Acked DATA 14, slide SEND window
+016.704 Send DATA 6 4, ID 20054
+016.735 Recv ACK  15
+016.735 Acked DATA 15, slide SEND window
+016.735 Send DATA 7 4, ID 20055
+016.767 Recv ACK  0
+016.767 Acked DATA 0, slide SEND window
+016.767 Send DATA 8 4, ID 20056
+016.798 Recv ACK  1
+016.798 Acked DATA 1, slide SEND window
+016.798 Send DATA 9 4, ID 20057
+016.972 Recv DATA 5 2, ID 10053
+016.972 Deliver DATA 5, ID 10053
+016.972 Slide RECV window, expect 6 next
+016.972 Acked DATA 2, slide SEND window
+016.972 Send DATA 10 5, ID 20058
+017.242 Recv DATA 6 2, ID 10054
+017.242 Deliver DATA 6, ID 10054
+017.242 .... 55 packets received, 6850 bps, 85.63%, Err 1 (8.2e-06)
+017.242 Slide RECV window, expect 7 next
+017.369 ---- ACK timeout
+017.369 Send ACK  6
+017.512 Recv DATA 7 2, ID 10055
+017.512 Deliver DATA 7, ID 10055
+017.512 Slide RECV window, expect 8 next
+017.639 ---- ACK timeout
+017.639 Send ACK  7
+017.766 Recv DATA 8 2, ID 10056
+017.768 Deliver DATA 8, ID 10056
+017.768 Slide RECV window, expect 9 next
+017.893 ---- ACK timeout
+017.893 Send ACK  8
+018.036 Recv DATA 9 3, ID 10057
+018.036 Deliver DATA 9, ID 10057
+018.036 Slide RECV window, expect 10 next
+018.036 Acked DATA 3, slide SEND window
+018.037 Send DATA 11 9, ID 20059
+018.291 Recv DATA 10 4, ID 10058
+018.291 Deliver DATA 10, ID 10058
+018.291 Slide RECV window, expect 11 next
+018.291 Acked DATA 4, slide SEND window
+018.291 Send DATA 12 10, ID 20060
+018.561 Recv DATA 11 5, ID 10059
+018.561 Deliver DATA 11, ID 10059
+018.561 Slide RECV window, expect 12 next
+018.561 Acked DATA 5, slide SEND window
+018.561 Send DATA 13 11, ID 20061
+018.831 Recv DATA 12 6, ID 10060
+018.831 Deliver DATA 12, ID 10060
+018.831 Slide RECV window, expect 13 next
+018.831 Acked DATA 6, slide SEND window
+018.832 Send DATA 14 12, ID 20062
+018.863 Recv ACK  7
+018.863 Acked DATA 7, slide SEND window
+018.863 Send DATA 15 12, ID 20063
+018.895 Recv ACK  8
+018.895 Acked DATA 8, slide SEND window
+018.895 Send DATA 0 12, ID 20064
+018.926 Recv ACK  9
+018.926 Acked DATA 9, slide SEND window
+018.926 Send DATA 1 12, ID 20065
+019.133 Recv DATA 13 10, ID 10061
+019.133 Deliver DATA 13, ID 10061
+019.133 Slide RECV window, expect 14 next
+019.133 Acked DATA 10, slide SEND window
+019.133 Send DATA 2 13, ID 20066
+019.371 Recv DATA 14 10, ID 10062
+019.371 Deliver DATA 14, ID 10062
+019.371 .... 63 packets received, 6947 bps, 86.84%, Err 1 (7.2e-06)
+019.371 Slide RECV window, expect 15 next
+019.498 ---- ACK timeout
+019.498 Send ACK  14
+019.642 Recv DATA 15 10, ID 10063
+019.642 Deliver DATA 15, ID 10063
+019.642 Slide RECV window, expect 0 next
+019.769 ---- ACK timeout
+019.769 Send ACK  15
+019.912 Recv DATA 0 10, ID 10064
+019.912 Deliver DATA 0, ID 10064
+019.912 Slide RECV window, expect 1 next
+020.040 ---- ACK timeout
+020.040 Send ACK  0
+020.167 Recv DATA 1 11, ID 10065
+020.167 Deliver DATA 1, ID 10065
+020.167 Slide RECV window, expect 2 next
+020.167 Acked DATA 11, slide SEND window
+020.167 Send DATA 3 1, ID 20067
+020.437 Recv DATA 2 12, ID 10066
+020.437 Deliver DATA 2, ID 10066
+020.437 Slide RECV window, expect 3 next
+020.437 Acked DATA 12, slide SEND window
+020.438 Send DATA 4 2, ID 20068
+020.469 Impose noise on received data, 2/147768=1.4E-05
+020.692 Recv DATA 3 13, ID 10067
+020.692 Deliver DATA 3, ID 10067
+020.692 Slide RECV window, expect 4 next
+020.692 Acked DATA 13, slide SEND window
+020.692 Send DATA 5 3, ID 20069
+020.962 **** Receiver Error, Bad CRC Checksum
+020.962 Request NAK for 4
+020.962 Send NAK  4
+020.994 Recv ACK  15
+020.994 Acked DATA 14, slide SEND window
+020.994 Acked DATA 15, slide SEND window
+020.994 Send DATA 6 3, ID 20070
+020.994 Send DATA 7 3, ID 20071
+021.009 Recv ACK  0
+021.010 Acked DATA 0, slide SEND window
+021.010 Send DATA 8 3, ID 20072
+021.042 Recv ACK  1
+021.042 Acked DATA 1, slide SEND window
+021.042 Send DATA 9 3, ID 20073
+021.263 Recv DATA 5 2, ID 10069
+021.263 Acked DATA 2, slide SEND window
+021.263 Send DATA 10 3, ID 20074
+021.501 Recv DATA 6 2, ID 10070
+021.739 Impose noise on received data, 3/157928=1.9E-05
+021.771 Recv DATA 7 2, ID 10071
+022.041 **** Receiver Error, Bad CRC Checksum
+022.295 Recv DATA 9 3, ID 10073
+022.295 Acked DATA 3, slide SEND window
+022.295 Send DATA 11 3, ID 20075
+022.565 Recv DATA 10 4, ID 10074
+022.565 Acked DATA 4, slide SEND window
+022.565 Send DATA 12 3, ID 20076
+022.836 Recv DATA 11 5, ID 10075
+022.836 Acked DATA 5, slide SEND window
+022.836 Send DATA 13 3, ID 20077
+023.106 Recv DATA 4 5, ID 10068
+023.106 Deliver DATA 4, ID 10068
+023.106 .... 69 packets received, 6335 bps, 79.19%, Err 3 (1.8e-05)
+023.106 Deliver DATA 5, ID 10069
+023.106 Deliver DATA 6, ID 10070
+023.106 Deliver DATA 7, ID 10071
+023.106 Slide RECV window, expect 8 next
+023.138 Recv ACK  6
+023.138 Acked DATA 6, slide SEND window
+023.138 Send DATA 14 7, ID 20078
+023.186 Recv ACK  7
+023.186 Acked DATA 7, slide SEND window
+023.186 Send DATA 15 7, ID 20079
+023.471 Recv ACK  8
+023.471 Acked DATA 8, slide SEND window
+023.472 Send DATA 0 7, ID 20080
+023.741 Recv ACK  9
+023.741 Acked DATA 9, slide SEND window
+023.751 Send DATA 1 7, ID 20081
+023.979 Recv ACK  10
+023.980 Acked DATA 10, slide SEND window
+023.980 Send DATA 2 7, ID 20082
+024.122 Recv ACK  11
+024.122 Acked DATA 11, slide SEND window
+024.122 Send DATA 3 7, ID 20083
+024.153 Recv ACK  12
+024.154 Acked DATA 12, slide SEND window
+024.154 Send DATA 4 7, ID 20084
+024.185 Recv ACK  13
+024.185 Acked DATA 13, slide SEND window
+024.186 Send DATA 5 7, ID 20085
+024.376 Recv DATA 12 14, ID 10076
+024.376 Request NAK for 8
+024.376 Acked DATA 14, slide SEND window
+024.376 Send NAK  8
+024.376 Send DATA 6 7, ID 20086
+024.646 Recv DATA 13 14, ID 10077
+024.884 Recv DATA 14 14, ID 10078
+025.152 Recv DATA 15 14, ID 10079
+025.184 Recv ACK  15
+025.184 Acked DATA 15, slide SEND window
+025.185 Send DATA 7 7, ID 20087
+025.295 Recv ACK  0
+025.295 Acked DATA 0, slide SEND window
+025.295 Send DATA 8 7, ID 20088
+025.566 Recv ACK  1
+025.566 Acked DATA 1, slide SEND window
+025.566 Send DATA 9 7, ID 20089
+025.693 Recv ACK  2
+025.693 Acked DATA 2, slide SEND window
+025.693 Send DATA 10 7, ID 20090
+025.725 Recv ACK  3
+025.725 Acked DATA 3, slide SEND window
+025.725 Send DATA 11 7, ID 20091
+025.931 Recv DATA 8 3, ID 10072
+025.931 Deliver DATA 8, ID 10072
+025.931 .... 73 packets received, 5949 bps, 74.36%, Err 3 (1.7e-05)
+025.931 Deliver DATA 9, ID 10073
+025.931 Deliver DATA 10, ID 10074
+025.931 Deliver DATA 11, ID 10075
+025.931 Deliver DATA 12, ID 10076
+025.931 Deliver DATA 13, ID 10077
+025.931 Deliver DATA 14, ID 10078
+025.931 Deliver DATA 15, ID 10079
+025.931 Slide RECV window, expect 0 next
+025.962 Recv ACK  4
+025.962 Acked DATA 4, slide SEND window
+025.962 Send DATA 12 15, ID 20092
+026.233 Recv DATA 8 5, ID 10072
+026.233 Ignore out-of-window DATA 8
+026.233 Acked DATA 5, slide SEND window
+026.233 Send DATA 13 15, ID 20093
+026.502 Recv DATA 9 5, ID 10073
+026.502 Ignore out-of-window DATA 9
+026.630 ---- ACK timeout
+026.630 Send ACK  15
+026.758 Recv DATA 10 6, ID 10074
+026.758 Ignore out-of-window DATA 10
+026.758 Acked DATA 6, slide SEND window
+026.758 Send DATA 14 15, ID 20094
+027.013 Recv DATA 11 7, ID 10075
+027.013 Ignore out-of-window DATA 11
+027.013 Acked DATA 7, slide SEND window
+027.013 Send DATA 15 15, ID 20095
+027.172 Recv ACK  8
+027.172 Acked DATA 8, slide SEND window
+027.172 Send DATA 0 15, ID 20096
+027.219 Recv ACK  9
+027.219 Acked DATA 9, slide SEND window
+027.473 Recv DATA 12 9, ID 10076
+027.473 Ignore out-of-window DATA 12
+027.473 Send DATA 1 15, ID 20097
+027.678 Recv ACK  10
+027.679 Acked DATA 10, slide SEND window
+027.679 Send DATA 2 15, ID 20098
+027.742 Recv ACK  11
+027.742 Acked DATA 11, slide SEND window
+028.011 Recv DATA 13 11, ID 10077
+028.011 Ignore out-of-window DATA 13
+028.011 Send DATA 3 15, ID 20099
+028.281 Recv DATA 0 12, ID 10080
+028.282 Deliver DATA 0, ID 10080
+028.282 .... 81 packets received, 6036 bps, 75.45%, Err 3 (1.5e-05)
+028.282 Slide RECV window, expect 1 next
+028.282 Acked DATA 12, slide SEND window
+028.282 Send DATA 4 0, ID 20100
+028.519 Recv DATA 1 12, ID 10081
+028.519 Deliver DATA 1, ID 10081
+028.519 Slide RECV window, expect 2 next
+028.646 ---- ACK timeout
+028.646 Send ACK  1
+028.804 Recv DATA 2 12, ID 10082
+028.804 Deliver DATA 2, ID 10082
+028.804 Slide RECV window, expect 3 next
+028.931 ---- ACK timeout
+028.931 Send ACK  2
+029.073 Recv DATA 3 12, ID 10083
+029.073 Deliver DATA 3, ID 10083
+029.073 Slide RECV window, expect 4 next
+029.199 ---- ACK timeout
+029.199 Send ACK  3
+029.310 Recv DATA 4 13, ID 10084
+029.310 Deliver DATA 4, ID 10084
+029.310 Slide RECV window, expect 5 next
+029.310 Acked DATA 13, slide SEND window
+029.310 Send DATA 5 4, ID 20101
+029.580 Recv DATA 5 14, ID 10085
+029.580 Deliver DATA 5, ID 10085
+029.580 Slide RECV window, expect 6 next
+029.580 Acked DATA 14, slide SEND window
+029.580 Send DATA 6 5, ID 20102
+029.850 Recv DATA 6 15, ID 10086
+029.850 Deliver DATA 6, ID 10086
+029.850 Slide RECV window, expect 7 next
+029.850 Acked DATA 15, slide SEND window
+029.850 Send DATA 7 6, ID 20103
+030.120 Recv DATA 7 0, ID 10087
+030.120 Deliver DATA 7, ID 10087
+030.120 Slide RECV window, expect 8 next
+030.120 Acked DATA 0, slide SEND window
+030.120 Send DATA 8 7, ID 20104
+030.152 Recv ACK  1
+030.152 Acked DATA 1, slide SEND window
+030.152 Send DATA 9 7, ID 20105
+030.168 Recv ACK  2
+030.168 Acked DATA 2, slide SEND window
+030.168 Send DATA 10 7, ID 20106
+030.200 Recv ACK  3
+030.200 Acked DATA 3, slide SEND window
+030.200 Send DATA 11 7, ID 20107
+030.390 Recv DATA 8 4, ID 10088
+030.390 Deliver DATA 8, ID 10088
+030.390 .... 89 packets received, 6160 bps, 77.00%, Err 3 (1.4e-05)
+030.391 Slide RECV window, expect 9 next
+030.391 Acked DATA 4, slide SEND window
+030.391 Send DATA 12 8, ID 20108
+030.661 Recv DATA 9 4, ID 10089
+030.661 Deliver DATA 9, ID 10089
+030.661 Slide RECV window, expect 10 next
+030.787 ---- ACK timeout
+030.787 Send ACK  9
+030.930 Recv DATA 10 4, ID 10090
+030.930 Deliver DATA 10, ID 10090
+030.930 Slide RECV window, expect 11 next
+031.057 ---- ACK timeout
+031.057 Send ACK  10
+031.184 Recv DATA 11 4, ID 10091
+031.184 Deliver DATA 11, ID 10091
+031.184 Slide RECV window, expect 12 next
+031.311 ---- ACK timeout
+031.311 Send ACK  11
+031.454 Recv DATA 12 5, ID 10092
+031.454 Deliver DATA 12, ID 10092
+031.454 Slide RECV window, expect 13 next
+031.454 Acked DATA 5, slide SEND window
+031.454 Send DATA 13 12, ID 20109
+031.709 Recv DATA 13 6, ID 10093
+031.709 Deliver DATA 13, ID 10093
+031.709 Slide RECV window, expect 14 next
+031.709 Acked DATA 6, slide SEND window
+031.709 Send DATA 14 13, ID 20110
+031.979 Recv DATA 14 7, ID 10094
+031.979 Deliver DATA 14, ID 10094
+031.979 Slide RECV window, expect 15 next
+031.979 Acked DATA 7, slide SEND window
+031.979 Send DATA 15 14, ID 20111
+032.249 Recv DATA 15 8, ID 10095
+032.249 Deliver DATA 15, ID 10095
+032.249 Slide RECV window, expect 0 next
+032.249 Acked DATA 8, slide SEND window
+032.249 Send DATA 0 15, ID 20112
+032.281 Recv ACK  9
+032.281 Acked DATA 9, slide SEND window
+032.281 Send DATA 1 15, ID 20113
+032.313 Recv ACK  10
+032.313 Acked DATA 10, slide SEND window
+032.313 Send DATA 2 15, ID 20114
+032.345 Recv ACK  11
+032.345 Acked DATA 11, slide SEND window
+032.345 Send DATA 3 15, ID 20115
+032.552 Recv DATA 0 12, ID 10096
+032.552 Deliver DATA 0, ID 10096
+032.552 .... 97 packets received, 6256 bps, 78.20%, Err 3 (1.3e-05)
+032.552 Slide RECV window, expect 1 next
+032.552 Acked DATA 12, slide SEND window
+032.552 Send DATA 4 0, ID 20116
+032.805 Recv DATA 1 12, ID 10097
+032.805 Deliver DATA 1, ID 10097
+032.805 Slide RECV window, expect 2 next
+032.932 ---- ACK timeout
+032.932 Send ACK  1
+033.059 Recv DATA 2 12, ID 10098
+033.059 Deliver DATA 2, ID 10098
+033.059 Slide RECV window, expect 3 next
+033.186 ---- ACK timeout
+033.186 Send ACK  2
+033.329 Recv DATA 3 12, ID 10099
+033.329 Deliver DATA 3, ID 10099
+033.329 Slide RECV window, expect 4 next
+033.456 ---- ACK timeout
+033.456 Send ACK  3
+033.601 Recv DATA 4 13, ID 10100
+033.601 Deliver DATA 4, ID 10100
+033.601 Slide RECV window, expect 5 next
+033.601 Acked DATA 13, slide SEND window
+033.601 Send DATA 5 4, ID 20117
+033.855 Recv DATA 5 14, ID 10101
+033.855 Deliver DATA 5, ID 10101
+033.855 Slide RECV window, expect 6 next
+033.855 Acked DATA 14, slide SEND window
+033.855 Send DATA 6 5, ID 20118
+034.125 Recv DATA 6 15, ID 10102
+034.125 Deliver DATA 6, ID 10102
+034.125 Slide RECV window, expect 7 next
+034.125 Acked DATA 15, slide SEND window
+034.125 Send DATA 7 6, ID 20119
+034.395 Recv DATA 7 0, ID 10103
+034.395 Deliver DATA 7, ID 10103
+034.395 Slide RECV window, expect 8 next
+034.395 Acked DATA 0, slide SEND window
+034.395 Impose noise on received data, 4/244160=1.6E-05
+034.395 Send DATA 8 7, ID 20120
+034.427 Recv ACK  1
+034.427 Acked DATA 1, slide SEND window
+034.427 Send DATA 9 7, ID 20121
+034.459 Recv ACK  2
+034.459 Acked DATA 2, slide SEND window
+034.459 Send DATA 10 7, ID 20122
+034.490 Recv ACK  3
+034.490 Acked DATA 3, slide SEND window
+034.490 Send DATA 11 7, ID 20123
+034.665 Recv DATA 8 4, ID 10104
+034.665 Deliver DATA 8, ID 10104
+034.665 .... 105 packets received, 6350 bps, 79.37%, Err 4 (1.6e-05)
+034.665 Slide RECV window, expect 9 next
+034.665 Acked DATA 4, slide SEND window
+034.665 Send DATA 12 8, ID 20124
+034.729 Impose noise on received data, 5/246832=2.0E-05
+034.917 Recv DATA 9 4, ID 10105
+034.926 Deliver DATA 9, ID 10105
+034.926 Slide RECV window, expect 10 next
+035.059 ---- ACK timeout
+035.059 Send ACK  9
+035.200 **** Receiver Error, Bad CRC Checksum
+035.200 Request NAK for 10
+035.200 Send NAK  10
+035.470 Recv DATA 11 4, ID 10107
+035.724 Recv DATA 12 5, ID 10108
+035.724 Acked DATA 5, slide SEND window
+035.724 Send DATA 13 9, ID 20125
+035.995 Recv DATA 13 6, ID 10109
+035.995 Acked DATA 6, slide SEND window
+035.995 Send DATA 14 9, ID 20126
+036.249 Recv DATA 14 7, ID 10110
+036.249 Acked DATA 7, slide SEND window
+036.249 Send DATA 15 9, ID 20127
+036.502 Recv DATA 15 8, ID 10111
+036.502 Acked DATA 8, slide SEND window
+036.503 Send DATA 0 9, ID 20128
+036.518 Recv ACK  9
+036.518 Acked DATA 9, slide SEND window
+036.518 Send DATA 1 9, ID 20129
+036.550 Recv ACK  10
+036.550 Acked DATA 10, slide SEND window
+036.550 Send DATA 2 9, ID 20130
+036.582 Recv ACK  11
+036.582 Acked DATA 11, slide SEND window
+036.582 Send DATA 3 9, ID 20131
+036.788 Recv DATA 0 12, ID 10112
+036.788 Acked DATA 12, slide SEND window
+036.789 Send DATA 4 9, ID 20132
+037.058 Recv DATA 1 12, ID 10113
+037.343 Recv DATA 10 12, ID 10106
+037.343 Deliver DATA 10, ID 10106
+037.343 .... 107 packets received, 5996 bps, 74.96%, Err 5 (1.9e-05)
+037.343 Deliver DATA 11, ID 10107
+037.343 Deliver DATA 12, ID 10108
+037.343 Deliver DATA 13, ID 10109
+037.343 Deliver DATA 14, ID 10110
+037.343 Deliver DATA 15, ID 10111
+037.343 Deliver DATA 0, ID 10112
+037.343 Deliver DATA 1, ID 10113
+037.343 Slide RECV window, expect 2 next
+037.471 ---- ACK timeout
+037.471 Send ACK  1
+037.550 Recv ACK  13
+037.550 Acked DATA 13, slide SEND window
+037.550 Send DATA 5 1, ID 20133
+037.822 Recv ACK  14
+037.822 Acked DATA 14, slide SEND window
+037.822 Send DATA 6 1, ID 20134
+038.074 Recv ACK  15
+038.074 Acked DATA 15, slide SEND window
+038.075 Send DATA 7 1, ID 20135
+038.344 Recv ACK  0
+038.344 Acked DATA 0, slide SEND window
+038.344 Send DATA 8 1, ID 20136
+038.486 Recv ACK  1
+038.486 Acked DATA 1, slide SEND window
+038.487 Send DATA 9 1, ID 20137
+038.518 Recv ACK  2
+038.518 Acked DATA 2, slide SEND window
+038.518 Send DATA 10 1, ID 20138
+038.550 Recv ACK  3
+038.550 Acked DATA 3, slide SEND window
+038.550 Send DATA 11 1, ID 20139
+038.741 Recv DATA 2 4, ID 10114
+038.741 Deliver DATA 2, ID 10114
+038.741 Slide RECV window, expect 3 next
+038.741 Acked DATA 4, slide SEND window
+038.741 Send DATA 12 2, ID 20140
+039.012 Recv DATA 3 4, ID 10115
+039.012 Deliver DATA 3, ID 10115
+039.012 Slide RECV window, expect 4 next
+039.139 ---- ACK timeout
+039.139 Send ACK  3
+039.266 Recv DATA 4 4, ID 10116
+039.266 Deliver DATA 4, ID 10116
+039.267 Slide RECV window, expect 5 next
+039.394 ---- ACK timeout
+039.394 Send ACK  4
+039.537 Recv DATA 5 4, ID 10117
+039.537 Deliver DATA 5, ID 10117
+039.537 .... 118 packets received, 6238 bps, 77.98%, Err 5 (1.8e-05)
+039.537 Slide RECV window, expect 6 next
+039.664 ---- ACK timeout
+039.664 Send ACK  5
+039.791 Recv DATA 6 4, ID 10118
+039.791 Deliver DATA 6, ID 10118
+039.791 Slide RECV window, expect 7 next
+039.918 ---- ACK timeout
+039.918 Send ACK  6
+040.061 Recv DATA 7 5, ID 10119
+040.061 Deliver DATA 7, ID 10119
+040.061 Slide RECV window, expect 8 next
+040.061 Acked DATA 5, slide SEND window
+040.061 Send DATA 13 7, ID 20141
+040.093 Recv ACK  6
+040.093 Acked DATA 6, slide SEND window
+040.093 Send DATA 14 7, ID 20142
+040.331 Recv DATA 8 6, ID 10120
+040.331 Deliver DATA 8, ID 10120
+040.331 Slide RECV window, expect 9 next
+040.363 Recv ACK  7
+040.363 Acked DATA 7, slide SEND window
+040.363 Send DATA 15 8, ID 20143
+040.600 Recv DATA 9 7, ID 10121
+040.600 Deliver DATA 9, ID 10121
+040.600 Slide RECV window, expect 10 next
+040.632 Recv ACK  8
+040.632 Acked DATA 8, slide SEND window
+040.633 Send DATA 0 9, ID 20144
+040.664 Recv ACK  9
+040.664 Acked DATA 9, slide SEND window
+040.664 Send DATA 1 9, ID 20145
+040.695 Recv ACK  10
+040.695 Acked DATA 10, slide SEND window
+040.696 Send DATA 2 9, ID 20146
+040.727 Recv ACK  11
+040.727 Acked DATA 11, slide SEND window
+040.727 Send DATA 3 9, ID 20147
+040.886 Recv DATA 10 12, ID 10122
+040.886 Deliver DATA 10, ID 10122
+040.886 Slide RECV window, expect 11 next
+040.895 Acked DATA 12, slide SEND window
+040.895 Send DATA 4 10, ID 20148
+041.140 Recv DATA 11 12, ID 10123
+041.140 Deliver DATA 11, ID 10123
+041.140 Slide RECV window, expect 12 next
+041.283 ---- ACK timeout
+041.283 Send ACK  11
+041.410 Recv DATA 12 12, ID 10124
+041.410 Deliver DATA 12, ID 10124
+041.410 Slide RECV window, expect 13 next
+041.537 ---- ACK timeout
+041.537 Send ACK  12
+041.679 Recv DATA 13 12, ID 10125
+041.679 Deliver DATA 13, ID 10125
+041.679 .... 126 packets received, 6312 bps, 78.90%, Err 5 (1.7e-05)
+041.679 Slide RECV window, expect 14 next
+041.807 ---- ACK timeout
+041.807 Send ACK  13
+041.950 Recv DATA 14 12, ID 10126
+041.950 Deliver DATA 14, ID 10126
+041.950 Slide RECV window, expect 15 next
+041.982 Recv ACK  13
+041.982 Acked DATA 13, slide SEND window
+041.982 Send DATA 5 14, ID 20149
+042.219 Recv DATA 15 13, ID 10127
+042.219 Deliver DATA 15, ID 10127
+042.219 Slide RECV window, expect 0 next
+042.251 Recv ACK  14
+042.251 Acked DATA 14, slide SEND window
+042.251 Send DATA 6 15, ID 20150
+042.489 Recv DATA 0 15, ID 10128
+042.489 Deliver DATA 0, ID 10128
+042.489 Slide RECV window, expect 1 next
+042.489 Acked DATA 15, slide SEND window
+042.489 Send DATA 7 0, ID 20151
+042.521 Recv NAK  0
+042.521 ---- Resend DATA 0 on NAK
+042.521 Send DATA 0 0, ID 20144
+042.743 Recv DATA 1 15, ID 10129
+042.743 Deliver DATA 1, ID 10129
+042.743 Slide RECV window, expect 2 next
+042.871 ---- ACK timeout
+042.871 Send ACK  1
+043.014 Recv DATA 2 15, ID 10130
+043.014 Deliver DATA 2, ID 10130
+043.014 Slide RECV window, expect 3 next
+043.141 ---- ACK timeout
+043.141 Send ACK  2
+043.285 Recv DATA 3 15, ID 10131
+043.285 Deliver DATA 3, ID 10131
+043.285 Slide RECV window, expect 4 next
+043.412 ---- ACK timeout
+043.412 Send ACK  3
+043.507 Impose noise on received data, 6/308200=1.9E-05
+043.554 Recv DATA 4 15, ID 10132
+043.555 Deliver DATA 4, ID 10132
+043.555 Slide RECV window, expect 5 next
+043.681 ---- ACK timeout
+043.681 Send ACK  4
+043.828 Recv DATA 5 15, ID 10133
+043.828 Deliver DATA 5, ID 10133
+043.828 .... 134 packets received, 6378 bps, 79.72%, Err 6 (1.9e-05)
+043.828 Slide RECV window, expect 6 next
+043.957 ---- ACK timeout
+043.957 Send ACK  5
+044.084 Recv DATA 6 15, ID 10134
+044.084 Deliver DATA 6, ID 10134
+044.084 Slide RECV window, expect 7 next
+044.212 ---- ACK timeout
+044.212 Send ACK  6
+044.355 Recv DATA 7 15, ID 10135
+044.355 Deliver DATA 7, ID 10135
+044.355 Slide RECV window, expect 8 next
+044.482 ---- ACK timeout
+044.482 Send ACK  7
+044.609 Recv DATA 8 15, ID 10136
+044.609 Deliver DATA 8, ID 10136
+044.609 Slide RECV window, expect 9 next
+044.625 Recv ACK  7
+044.625 Acked DATA 0, slide SEND window
+044.625 Acked DATA 1, slide SEND window
+044.625 Acked DATA 2, slide SEND window
+044.625 Acked DATA 3, slide SEND window
+044.625 Acked DATA 4, slide SEND window
+044.625 Acked DATA 5, slide SEND window
+044.625 Acked DATA 6, slide SEND window
+044.625 Acked DATA 7, slide SEND window
+044.625 Send DATA 8 8, ID 20152
+044.627 Send DATA 9 8, ID 20153
+044.627 Send DATA 10 8, ID 20154
+044.627 Send DATA 11 8, ID 20155
+044.627 Send DATA 12 8, ID 20156
+044.881 Recv DATA 9 7, ID 10137
+044.881 Deliver DATA 9, ID 10137
+044.881 Slide RECV window, expect 10 next
+045.007 ---- ACK timeout
+045.007 Send ACK  9
+045.007 Send DATA 13 9, ID 20157
+045.134 Recv DATA 10 7, ID 10138
+045.134 Deliver DATA 10, ID 10138
+045.134 Slide RECV window, expect 11 next
+045.261 ---- ACK timeout
+045.261 Send ACK  10
+045.261 Send DATA 14 10, ID 20158
+045.403 Recv DATA 11 7, ID 10139
+045.403 Deliver DATA 11, ID 10139
+045.403 Slide RECV window, expect 12 next
+045.529 ---- ACK timeout
+045.529 Send ACK  11
+045.529 Send DATA 15 11, ID 20159
+045.656 Recv DATA 12 7, ID 10140
+045.656 Deliver DATA 12, ID 10140
+045.657 Slide RECV window, expect 13 next
+045.782 ---- ACK timeout
+045.782 Send ACK  12
+045.926 Recv DATA 13 7, ID 10141
+045.926 Deliver DATA 13, ID 10141
+045.926 .... 142 packets received, 6444 bps, 80.55%, Err 6 (1.8e-05)
+045.926 Slide RECV window, expect 14 next
+046.052 ---- ACK timeout
+046.052 Send ACK  13
+046.195 Recv DATA 14 7, ID 10142
+046.205 Deliver DATA 14, ID 10142
+046.205 Slide RECV window, expect 15 next
+046.323 ---- ACK timeout
+046.323 Send ACK  14
+046.449 Recv DATA 15 7, ID 10143
+046.449 Deliver DATA 15, ID 10143
+046.449 Slide RECV window, expect 0 next
+046.576 ---- ACK timeout
+046.576 Send ACK  15
+046.719 Recv DATA 0 8, ID 10144
+046.719 Deliver DATA 0, ID 10144
+046.719 Slide RECV window, expect 1 next
+046.720 Acked DATA 8, slide SEND window
+046.720 Send DATA 0 0, ID 20160
+046.751 Recv ACK  9
+046.751 Acked DATA 9, slide SEND window
+046.751 Send DATA 1 0, ID 20161
+046.767 Recv ACK  10
+046.767 Acked DATA 10, slide SEND window
+046.767 Send DATA 2 0, ID 20162
+046.799 Recv ACK  11
+046.799 Acked DATA 11, slide SEND window
+046.799 Send DATA 3 0, ID 20163
+047.021 Recv DATA 1 12, ID 10145
+047.021 Deliver DATA 1, ID 10145
+047.021 Slide RECV window, expect 2 next
+047.021 Acked DATA 12, slide SEND window
+047.021 Send DATA 4 1, ID 20164
+047.275 Recv DATA 2 13, ID 10146
+047.275 Deliver DATA 2, ID 10146
+047.275 Slide RECV window, expect 3 next
+047.275 Acked DATA 13, slide SEND window
+047.275 Send DATA 5 2, ID 20165
+047.546 Recv DATA 3 14, ID 10147
+047.546 Deliver DATA 3, ID 10147
+047.546 Slide RECV window, expect 4 next
+047.546 Acked DATA 14, slide SEND window
+047.547 Send DATA 6 3, ID 20166
+047.801 Recv DATA 4 15, ID 10148
+047.801 Deliver DATA 4, ID 10148
+047.801 Slide RECV window, expect 5 next
+047.801 Acked DATA 15, slide SEND window
+047.801 Send DATA 7 4, ID 20167
+048.071 Recv DATA 5 15, ID 10149
+048.071 Deliver DATA 5, ID 10149
+048.071 .... 150 packets received, 6499 bps, 81.23%, Err 6 (1.7e-05)
+048.071 Slide RECV window, expect 6 next
+048.198 ---- ACK timeout
+048.198 Send ACK  5
+048.325 Recv DATA 6 15, ID 10150
+048.325 Deliver DATA 6, ID 10150
+048.325 Slide RECV window, expect 7 next
+048.453 ---- ACK timeout
+048.453 Send ACK  6
+048.579 Recv DATA 7 15, ID 10151
+048.579 Deliver DATA 7, ID 10151
+048.579 Slide RECV window, expect 8 next
+048.707 ---- ACK timeout
+048.707 Send ACK  7
+048.850 Recv DATA 8 0, ID 10152
+048.850 Deliver DATA 8, ID 10152
+048.850 Slide RECV window, expect 9 next
+048.850 Acked DATA 0, slide SEND window
+048.850 Send DATA 8 8, ID 20168
+048.881 Recv ACK  1
+048.881 Acked DATA 1, slide SEND window
+048.881 Send DATA 9 8, ID 20169
+048.913 Recv ACK  2
+048.913 Acked DATA 2, slide SEND window
+048.913 Send DATA 10 8, ID 20170
+048.929 Recv ACK  3
+048.929 Acked DATA 3, slide SEND window
+048.929 Send DATA 11 8, ID 20171
+049.151 Recv DATA 9 4, ID 10153
+049.151 Deliver DATA 9, ID 10153
+049.151 Slide RECV window, expect 10 next
+049.151 Acked DATA 4, slide SEND window
+049.151 Send DATA 12 9, ID 20172
+049.421 Recv DATA 10 5, ID 10154
+049.421 Deliver DATA 10, ID 10154
+049.421 Slide RECV window, expect 11 next
+049.421 Acked DATA 5, slide SEND window
+049.421 Send DATA 13 10, ID 20173
+049.675 Recv DATA 11 6, ID 10155
+049.675 Deliver DATA 11, ID 10155
+049.675 Slide RECV window, expect 12 next
+049.675 Acked DATA 6, slide SEND window
+049.675 Send DATA 14 11, ID 20174
+049.944 Recv DATA 12 7, ID 10156
+049.944 Deliver DATA 12, ID 10156
+049.944 Slide RECV window, expect 13 next
+049.945 Acked DATA 7, slide SEND window
+049.945 Send DATA 15 12, ID 20175
+050.199 Recv DATA 13 7, ID 10157
+050.199 Deliver DATA 13, ID 10157
+050.199 .... 158 packets received, 6550 bps, 81.88%, Err 6 (1.7e-05)
+050.199 Slide RECV window, expect 14 next
+050.326 ---- ACK timeout
+050.326 Send ACK  13
+050.468 Recv DATA 14 7, ID 10158
+050.468 Deliver DATA 14, ID 10158
+050.468 Slide RECV window, expect 15 next
+050.596 ---- ACK timeout
+050.596 Send ACK  14
+050.739 Recv DATA 15 7, ID 10159
+050.739 Deliver DATA 15, ID 10159
+050.739 Slide RECV window, expect 0 next
+050.866 ---- ACK timeout
+050.866 Send ACK  15
+051.009 Recv DATA 0 8, ID 10160
+051.009 Deliver DATA 0, ID 10160
+051.009 Slide RECV window, expect 1 next
+051.009 Acked DATA 8, slide SEND window
+051.009 Send DATA 0 0, ID 20176
+051.025 Recv ACK  9
+051.025 Acked DATA 9, slide SEND window
+051.025 Send DATA 1 0, ID 20177
+051.056 Recv ACK  10
+051.056 Acked DATA 10, slide SEND window
+051.056 Send DATA 2 0, ID 20178
+051.072 Recv ACK  11
+051.072 Acked DATA 11, slide SEND window
+051.081 Send DATA 3 0, ID 20179
+051.279 Recv DATA 1 12, ID 10161
+051.279 Deliver DATA 1, ID 10161
+051.279 Slide RECV window, expect 2 next
+051.279 Acked DATA 12, slide SEND window
+051.279 Send DATA 4 1, ID 20180
+051.533 Recv DATA 2 13, ID 10162
+051.533 Deliver DATA 2, ID 10162
+051.533 Slide RECV window, expect 3 next
+051.533 Acked DATA 13, slide SEND window
+051.533 Send DATA 5 2, ID 20181
+051.803 Recv DATA 3 14, ID 10163
+051.803 Deliver DATA 3, ID 10163
+051.803 Slide RECV window, expect 4 next
+051.803 Acked DATA 14, slide SEND window
+051.803 Send DATA 6 3, ID 20182
+052.058 Recv DATA 4 15, ID 10164
+052.058 Deliver DATA 4, ID 10164
+052.058 Slide RECV window, expect 5 next
+052.058 Acked DATA 15, slide SEND window
+052.058 Send DATA 7 4, ID 20183
+052.327 Recv DATA 5 15, ID 10165
+052.328 Deliver DATA 5, ID 10165
+052.328 .... 166 packets received, 6598 bps, 82.47%, Err 6 (1.6e-05)
+052.328 Slide RECV window, expect 6 next
+052.455 ---- ACK timeout
+052.455 Send ACK  5
+052.583 Recv DATA 6 15, ID 10166
+052.583 Deliver DATA 6, ID 10166
+052.583 Slide RECV window, expect 7 next
+052.710 ---- ACK timeout
+052.710 Send ACK  6
+052.869 Recv DATA 7 15, ID 10167
+052.869 Deliver DATA 7, ID 10167
+052.869 Slide RECV window, expect 8 next
+052.997 ---- ACK timeout
+052.997 Send ACK  7
+053.141 Recv DATA 8 0, ID 10168
+053.141 Deliver DATA 8, ID 10168
+053.141 Slide RECV window, expect 9 next
+053.141 Acked DATA 0, slide SEND window
+053.141 Send DATA 8 8, ID 20184
+053.173 Recv ACK  1
+053.173 Acked DATA 1, slide SEND window
+053.173 Send DATA 9 8, ID 20185
+053.188 Recv ACK  2
+053.188 Acked DATA 2, slide SEND window
+053.189 Send DATA 10 8, ID 20186
+053.220 Recv ACK  3
+053.220 Acked DATA 3, slide SEND window
+053.220 Send DATA 11 8, ID 20187
+053.395 Recv DATA 9 4, ID 10169
+053.395 Deliver DATA 9, ID 10169
+053.395 Slide RECV window, expect 10 next
+053.395 Acked DATA 4, slide SEND window
+053.395 Send DATA 12 9, ID 20188
+053.664 Recv DATA 10 5, ID 10170
+053.664 Deliver DATA 10, ID 10170
+053.664 Slide RECV window, expect 11 next
+053.664 Acked DATA 5, slide SEND window
+053.664 Send DATA 13 10, ID 20189
+053.728 Impose noise on received data, 7/390096=1.8E-05
+053.934 Recv DATA 11 6, ID 10171
+053.934 Deliver DATA 11, ID 10171
+053.934 Slide RECV window, expect 12 next
+053.934 Acked DATA 6, slide SEND window
+053.934 Send DATA 14 11, ID 20190
+054.203 **** Receiver Error, Bad CRC Checksum
+054.203 Request NAK for 12
+054.203 Send NAK  12
+054.473 Recv DATA 13 7, ID 10173
+054.473 Acked DATA 7, slide SEND window
+054.473 Send DATA 15 11, ID 20191
+054.741 Recv DATA 14 7, ID 10174
+054.995 Recv DATA 15 7, ID 10175
+055.249 Recv DATA 0 8, ID 10176
+055.249 Acked DATA 8, slide SEND window
+055.249 Send DATA 0 11, ID 20192
+055.280 Recv ACK  9
+055.280 Acked DATA 9, slide SEND window
+055.280 Send DATA 1 11, ID 20193
+055.312 Recv ACK  10
+055.312 Acked DATA 10, slide SEND window
+055.312 Send DATA 2 11, ID 20194
+055.344 Recv ACK  11
+055.344 Acked DATA 11, slide SEND window
+055.345 Send DATA 3 11, ID 20195
+055.551 Recv DATA 1 12, ID 10177
+055.551 Acked DATA 12, slide SEND window
+055.551 Send DATA 4 11, ID 20196
+055.820 Recv DATA 2 13, ID 10178
+055.820 Acked DATA 13, slide SEND window
+055.821 Send DATA 5 11, ID 20197
+056.058 Recv DATA 3 14, ID 10179
+056.058 Acked DATA 14, slide SEND window
+056.059 Send DATA 6 11, ID 20198
+056.329 Recv DATA 12 14, ID 10172
+056.330 Deliver DATA 12, ID 10172
+056.330 .... 173 packets received, 6380 bps, 79.76%, Err 7 (1.7e-05)
+056.330 Deliver DATA 13, ID 10173
+056.330 Deliver DATA 14, ID 10174
+056.330 Deliver DATA 15, ID 10175
+056.330 Deliver DATA 0, ID 10176
+056.330 Deliver DATA 1, ID 10177
+056.330 Deliver DATA 2, ID 10178
+056.330 Deliver DATA 3, ID 10179
+056.330 Slide RECV window, expect 4 next
+056.361 Recv ACK  15
+056.361 Acked DATA 15, slide SEND window
+056.361 Send DATA 7 3, ID 20199
+056.520 Recv ACK  0
+056.520 Acked DATA 0, slide SEND window
+056.520 Send DATA 8 3, ID 20200
+056.790 Recv ACK  1
+056.790 Acked DATA 1, slide SEND window
+056.790 Send DATA 9 3, ID 20201
+057.044 Recv ACK  2
+057.044 Acked DATA 2, slide SEND window
+057.044 Send DATA 10 3, ID 20202
+057.314 Recv ACK  3
+057.314 Acked DATA 3, slide SEND window
+057.314 Send DATA 11 3, ID 20203
+057.583 Recv ACK  4
+057.583 Acked DATA 4, slide SEND window
+057.584 Send DATA 12 3, ID 20204
+057.805 Recv ACK  5
+057.805 Acked DATA 5, slide SEND window
+057.805 Send DATA 13 3, ID 20205
+058.043 Recv DATA 13 6, ID 10173
+058.043 Ignore out-of-window DATA 13
+058.043 Acked DATA 6, slide SEND window
+058.043 Send DATA 14 3, ID 20206
+058.313 Recv DATA 4 7, ID 10180
+058.313 Deliver DATA 4, ID 10180
+058.313 Slide RECV window, expect 5 next
+058.313 Acked DATA 7, slide SEND window
+058.313 Send DATA 15 4, ID 20207
+058.552 Recv DATA 5 7, ID 10181
+058.552 Deliver DATA 5, ID 10181
+058.552 .... 182 packets received, 6454 bps, 80.67%, Err 7 (1.7e-05)
+058.552 Slide RECV window, expect 6 next
+058.678 ---- ACK timeout
+058.678 Send ACK  5
+058.821 Recv DATA 6 7, ID 10182
+058.821 Deliver DATA 6, ID 10182
+058.821 Slide RECV window, expect 7 next
+058.947 ---- ACK timeout
+058.947 Send ACK  6
+059.090 Recv DATA 7 7, ID 10183
+059.090 Deliver DATA 7, ID 10183
+059.090 Slide RECV window, expect 8 next
+059.217 ---- ACK timeout
+059.217 Send ACK  7
+059.359 Recv DATA 8 8, ID 10184
+059.359 Deliver DATA 8, ID 10184
+059.359 Slide RECV window, expect 9 next
+059.359 Acked DATA 8, slide SEND window
+059.359 Send DATA 0 8, ID 20208
+059.391 Recv NAK  9
+059.391 ---- Resend DATA 9 on NAK
+059.391 Send DATA 9 8, ID 20201
+059.628 Recv DATA 9 8, ID 10185
+059.628 Deliver DATA 9, ID 10185
+059.628 Slide RECV window, expect 10 next
+059.755 ---- ACK timeout
+059.755 Send ACK  9
+059.883 Recv DATA 10 8, ID 10186
+059.883 Deliver DATA 10, ID 10186
+059.883 Slide RECV window, expect 11 next
+060.011 ---- ACK timeout
+060.011 Send ACK  10
+060.153 Recv DATA 11 8, ID 10187
+060.153 Deliver DATA 11, ID 10187
+060.153 Slide RECV window, expect 12 next
+060.280 ---- ACK timeout
+060.280 Send ACK  11
+060.424 Recv DATA 12 8, ID 10188
+060.424 Deliver DATA 12, ID 10188
+060.424 Slide RECV window, expect 13 next
+060.551 ---- ACK timeout
+060.551 Send ACK  12
+060.693 Recv DATA 13 8, ID 10189
+060.693 Deliver DATA 13, ID 10189
+060.693 .... 190 packets received, 6497 bps, 81.21%, Err 7 (1.6e-05)
+060.693 Slide RECV window, expect 14 next
+060.821 ---- ACK timeout
+060.821 Send ACK  13
+060.964 Recv DATA 14 8, ID 10190
+060.964 Deliver DATA 14, ID 10190
+060.964 Slide RECV window, expect 15 next
+061.092 ---- ACK timeout
+061.092 Send ACK  14
+061.219 Recv DATA 15 8, ID 10191
+061.219 Deliver DATA 15, ID 10191
+061.219 Slide RECV window, expect 0 next
+061.345 ---- ACK timeout
+061.345 Send ACK  15
+061.489 Recv DATA 0 8, ID 10192
+061.489 Deliver DATA 0, ID 10192
+061.489 Slide RECV window, expect 1 next
+061.615 ---- ACK timeout
+061.615 Send ACK  0
+061.742 Recv DATA 1 0, ID 10193
+061.742 Deliver DATA 1, ID 10193
+061.742 Slide RECV window, expect 2 next
+061.742 Acked DATA 9, slide SEND window
+061.742 Acked DATA 10, slide SEND window
+061.742 Acked DATA 11, slide SEND window
+061.742 Acked DATA 12, slide SEND window
+061.742 Acked DATA 13, slide SEND window
+061.742 Acked DATA 14, slide SEND window
+061.742 Acked DATA 15, slide SEND window
+061.742 Acked DATA 0, slide SEND window
+061.742 Send DATA 1 1, ID 20209
+061.744 Send DATA 2 1, ID 20210
+061.744 Send DATA 3 1, ID 20211
+061.744 Send DATA 4 1, ID 20212
+061.744 Send DATA 5 1, ID 20213
+062.013 Recv DATA 2 0, ID 10194
+062.013 Deliver DATA 2, ID 10194
+062.013 Slide RECV window, expect 3 next
+062.013 Send DATA 6 2, ID 20214
+062.283 Recv DATA 3 0, ID 10195
+062.283 Deliver DATA 3, ID 10195
+062.283 Slide RECV window, expect 4 next
+062.284 Send DATA 7 3, ID 20215
+062.537 Recv DATA 4 0, ID 10196
+062.537 Deliver DATA 4, ID 10196
+062.538 Slide RECV window, expect 5 next
+062.538 Send DATA 8 4, ID 20216
+062.806 Recv DATA 5 0, ID 10197
+062.806 Deliver DATA 5, ID 10197
+062.806 .... 198 packets received, 6540 bps, 81.75%, Err 7 (1.6e-05)
+062.806 Slide RECV window, expect 6 next
+062.933 ---- ACK timeout
+062.933 Send ACK  5
+063.076 Recv DATA 6 0, ID 10198
+063.076 Deliver DATA 6, ID 10198
+063.076 Slide RECV window, expect 7 next
+063.203 ---- ACK timeout
+063.203 Send ACK  6
+063.330 Recv DATA 7 0, ID 10199
+063.339 Deliver DATA 7, ID 10199
+063.339 Slide RECV window, expect 8 next
+063.457 ---- ACK timeout
+063.457 Send ACK  7
+063.599 Recv DATA 8 0, ID 10200
+063.599 Deliver DATA 8, ID 10200
+063.599 Slide RECV window, expect 9 next
+063.727 ---- ACK timeout
+063.727 Send ACK  8
+063.854 Recv DATA 9 1, ID 10201
+063.854 Deliver DATA 9, ID 10201
+063.854 Slide RECV window, expect 10 next
+063.854 Acked DATA 1, slide SEND window
+063.854 Send DATA 9 9, ID 20217
+063.869 Recv ACK  2
+063.870 Acked DATA 2, slide SEND window
+063.870 Send DATA 10 9, ID 20218
+063.901 Recv ACK  3
+063.901 Acked DATA 3, slide SEND window
+063.902 Send DATA 11 9, ID 20219
+063.933 Recv ACK  4
+063.933 Acked DATA 4, slide SEND window
+063.933 Send DATA 12 9, ID 20220
+063.965 Recv ACK  5
+063.965 Acked DATA 5, slide SEND window
+063.965 Send DATA 13 9, ID 20221
+064.139 Recv DATA 10 6, ID 10202
+064.139 Deliver DATA 10, ID 10202
+064.139 Slide RECV window, expect 11 next
+064.139 Acked DATA 6, slide SEND window
+064.267 ---- ACK timeout
+064.267 Send ACK  10
+064.267 Send DATA 14 10, ID 20222
+064.409 Recv DATA 11 7, ID 10203
+064.409 Deliver DATA 11, ID 10203
+064.409 Slide RECV window, expect 12 next
+064.409 Acked DATA 7, slide SEND window
+064.536 ---- ACK timeout
+064.536 Send ACK  11
+064.536 Send DATA 15 11, ID 20223
+064.663 Recv DATA 12 8, ID 10204
+064.663 Deliver DATA 12, ID 10204
+064.663 Slide RECV window, expect 13 next
+064.663 Acked DATA 8, slide SEND window
+064.791 ---- ACK timeout
+064.791 Send ACK  12
+064.791 Send DATA 0 12, ID 20224
+064.934 Recv DATA 13 8, ID 10205
+064.934 Deliver DATA 13, ID 10205
+064.934 .... 206 packets received, 6578 bps, 82.23%, Err 7 (1.5e-05)
+064.934 Slide RECV window, expect 14 next
+065.061 ---- ACK timeout
+065.061 Send ACK  13
+065.204 Recv DATA 14 8, ID 10206
+065.204 Deliver DATA 14, ID 10206
+065.204 Slide RECV window, expect 15 next
+065.332 ---- ACK timeout
+065.332 Send ACK  14
+065.474 Recv DATA 15 8, ID 10207
+065.474 Deliver DATA 15, ID 10207
+065.474 Slide RECV window, expect 0 next
+065.602 ---- ACK timeout
+065.602 Send ACK  15
+065.730 Recv DATA 0 8, ID 10208
+065.730 Deliver DATA 0, ID 10208
+065.730 Slide RECV window, expect 1 next
+065.857 ---- ACK timeout
+065.857 Send ACK  0
+065.999 Recv DATA 1 9, ID 10209
+065.999 Deliver DATA 1, ID 10209
+065.999 Slide RECV window, expect 2 next
+065.999 Acked DATA 9, slide SEND window
+065.999 Send DATA 1 1, ID 20225
+066.031 Recv ACK  10
+066.031 Acked DATA 10, slide SEND window
+066.031 Send DATA 2 1, ID 20226
+066.063 Recv ACK  11
+066.063 Acked DATA 11, slide SEND window
+066.063 Send DATA 3 1, ID 20227
+066.095 Recv ACK  12
+066.095 Acked DATA 12, slide SEND window
+066.095 Send DATA 4 1, ID 20228
+066.270 Recv DATA 2 13, ID 10210
+066.270 Deliver DATA 2, ID 10210
+066.270 Slide RECV window, expect 3 next
+066.270 Acked DATA 13, slide SEND window
+066.270 Send DATA 5 2, ID 20229
+066.540 Recv DATA 3 14, ID 10211
+066.540 Deliver DATA 3, ID 10211
+066.540 Slide RECV window, expect 4 next
+066.540 Acked DATA 14, slide SEND window
+066.540 Send DATA 6 3, ID 20230
+066.796 Recv DATA 4 15, ID 10212
+066.796 Deliver DATA 4, ID 10212
+066.796 Slide RECV window, expect 5 next
+066.796 Acked DATA 15, slide SEND window
+066.796 Send DATA 7 4, ID 20231
+067.066 Recv DATA 5 0, ID 10213
+067.066 Deliver DATA 5, ID 10213
+067.066 .... 214 packets received, 6614 bps, 82.67%, Err 7 (1.4e-05)
+067.066 Slide RECV window, expect 6 next
+067.066 Acked DATA 0, slide SEND window
+067.067 Send DATA 8 5, ID 20232
+067.337 Recv DATA 6 0, ID 10214
+067.337 Deliver DATA 6, ID 10214
+067.337 Slide RECV window, expect 7 next
+067.464 ---- ACK timeout
+067.464 Send ACK  6
+067.607 Recv DATA 7 0, ID 10215
+067.607 Deliver DATA 7, ID 10215
+067.607 Slide RECV window, expect 8 next
+067.734 ---- ACK timeout
+067.735 Send ACK  7
+067.877 Recv DATA 8 0, ID 10216
+067.877 Deliver DATA 8, ID 10216
+067.877 Slide RECV window, expect 9 next
+068.003 ---- ACK timeout
+068.003 Send ACK  8
+068.130 Recv DATA 9 1, ID 10217
+068.130 Deliver DATA 9, ID 10217
+068.130 Slide RECV window, expect 10 next
+068.130 Acked DATA 1, slide SEND window
+068.130 Send DATA 9 9, ID 20233
+068.161 Recv ACK  2
+068.161 Acked DATA 2, slide SEND window
+068.161 Send DATA 10 9, ID 20234
+068.193 Recv ACK  3
+068.193 Acked DATA 3, slide SEND window
+068.193 Send DATA 11 9, ID 20235
+068.225 Recv ACK  4
+068.225 Acked DATA 4, slide SEND window
+068.225 Send DATA 12 9, ID 20236
+068.400 Recv DATA 10 5, ID 10218
+068.400 Deliver DATA 10, ID 10218
+068.400 Slide RECV window, expect 11 next
+068.400 Acked DATA 5, slide SEND window
+068.400 Send DATA 13 10, ID 20237
+068.670 Recv DATA 11 6, ID 10219
+068.670 Deliver DATA 11, ID 10219
+068.670 Slide RECV window, expect 12 next
+068.670 Acked DATA 6, slide SEND window
+068.670 Send DATA 14 11, ID 20238
+068.941 Recv DATA 12 7, ID 10220
+068.941 Deliver DATA 12, ID 10220
+068.941 Slide RECV window, expect 13 next
+068.941 Acked DATA 7, slide SEND window
+068.941 Send DATA 15 12, ID 20239
+069.211 Recv DATA 13 8, ID 10221
+069.211 Deliver DATA 13, ID 10221
+069.211 .... 222 packets received, 6646 bps, 83.07%, Err 7 (1.4e-05)
+069.211 Slide RECV window, expect 14 next
+069.211 Acked DATA 8, slide SEND window
+069.211 Send DATA 0 13, ID 20240
+069.480 Recv DATA 14 8, ID 10222
+069.480 Deliver DATA 14, ID 10222
+069.480 Slide RECV window, expect 15 next
+069.607 ---- ACK timeout
+069.607 Send ACK  14
+069.718 Recv DATA 15 8, ID 10223
+069.719 Deliver DATA 15, ID 10223
+069.719 Slide RECV window, expect 0 next
+069.845 ---- ACK timeout
+069.845 Send ACK  15
+069.987 Recv DATA 0 8, ID 10224
+069.988 Deliver DATA 0, ID 10224
+069.988 Slide RECV window, expect 1 next
+070.114 ---- ACK timeout
+070.114 Send ACK  0
+070.256 Recv DATA 1 9, ID 10225
+070.256 Deliver DATA 1, ID 10225
+070.257 Slide RECV window, expect 2 next
+070.257 Acked DATA 9, slide SEND window
+070.257 Send DATA 1 1, ID 20241
+070.288 Recv ACK  10
+070.288 Acked DATA 10, slide SEND window
+070.288 Send DATA 2 1, ID 20242
+070.320 Recv ACK  11
+070.320 Acked DATA 11, slide SEND window
+070.320 Send DATA 3 1, ID 20243
+070.352 Recv ACK  12
+070.352 Acked DATA 12, slide SEND window
+070.352 Send DATA 4 1, ID 20244
+070.558 Recv DATA 2 13, ID 10226
+070.558 Deliver DATA 2, ID 10226
+070.558 Slide RECV window, expect 3 next
+070.558 Acked DATA 13, slide SEND window
+070.558 Send DATA 5 2, ID 20245
+070.812 Recv DATA 3 14, ID 10227
+070.812 Deliver DATA 3, ID 10227
+070.812 Slide RECV window, expect 4 next
+070.812 Acked DATA 14, slide SEND window
+070.812 Send DATA 6 3, ID 20246
+070.986 Impose noise on received data, 8/517024=1.5E-05
+071.081 Recv DATA 4 15, ID 10228
+071.081 Deliver DATA 4, ID 10228
+071.081 Slide RECV window, expect 5 next
+071.081 Acked DATA 15, slide SEND window
+071.081 Send DATA 7 4, ID 20247
+071.335 **** Receiver Error, Bad CRC Checksum
+071.335 Request NAK for 5
+071.335 Send NAK  5
+071.604 Recv DATA 6 0, ID 10230
+071.604 Acked DATA 0, slide SEND window
+071.604 Send DATA 8 4, ID 20248
+071.875 Recv DATA 7 0, ID 10231
+072.130 Recv DATA 8 0, ID 10232
+072.399 Recv DATA 9 1, ID 10233
+072.399 Acked DATA 1, slide SEND window
+072.399 Send DATA 9 4, ID 20249
+072.430 Recv ACK  2
+072.430 Acked DATA 2, slide SEND window
+072.430 Send DATA 10 4, ID 20250
+072.462 Recv ACK  3
+072.462 Acked DATA 3, slide SEND window
+072.462 Send DATA 11 4, ID 20251
+072.478 Recv ACK  4
+072.478 Acked DATA 4, slide SEND window
+072.478 Send DATA 12 4, ID 20252
+072.669 Recv DATA 10 5, ID 10234
+072.669 Acked DATA 5, slide SEND window
+072.669 Send DATA 13 4, ID 20253
+072.937 Recv DATA 11 6, ID 10235
+072.938 Acked DATA 6, slide SEND window
+072.938 Send DATA 14 4, ID 20254
+073.192 Recv DATA 12 7, ID 10236
+073.192 Acked DATA 7, slide SEND window
+073.192 Send DATA 15 4, ID 20255
+073.461 Recv DATA 5 7, ID 10229
+073.461 Deliver DATA 5, ID 10229
+073.461 .... 230 packets received, 6483 bps, 81.03%, Err 8 (1.5e-05)
+073.462 Deliver DATA 6, ID 10230
+073.462 Deliver DATA 7, ID 10231
+073.462 Deliver DATA 8, ID 10232
+073.462 Deliver DATA 9, ID 10233
+073.462 Deliver DATA 10, ID 10234
+073.462 Deliver DATA 11, ID 10235
+073.462 Deliver DATA 12, ID 10236
+073.462 Slide RECV window, expect 13 next
+073.508 Recv ACK  8
+073.508 Acked DATA 8, slide SEND window
+073.509 Send DATA 0 12, ID 20256
+073.635 Recv ACK  9
+073.635 Acked DATA 9, slide SEND window
+073.636 Send DATA 1 12, ID 20257
+073.889 Recv ACK  10
+073.889 Acked DATA 10, slide SEND window
+073.889 Send DATA 2 12, ID 20258
+074.191 Recv ACK  11
+074.191 Acked DATA 11, slide SEND window
+074.191 Send DATA 3 12, ID 20259
+074.445 Recv ACK  12
+074.445 Acked DATA 12, slide SEND window
+074.445 Send DATA 4 12, ID 20260
+074.700 Recv ACK  13
+074.700 Acked DATA 13, slide SEND window
+074.700 Send DATA 5 12, ID 20261
+074.954 Recv ACK  14
+074.954 Acked DATA 14, slide SEND window
+074.954 Send DATA 6 12, ID 20262
+075.192 Recv DATA 6 15, ID 10230
+075.192 Ignore out-of-window DATA 6
+075.192 Acked DATA 15, slide SEND window
+075.192 Send DATA 7 12, ID 20263
+075.464 Recv DATA 13 0, ID 10237
+075.464 Deliver DATA 13, ID 10237
+075.464 .... 238 packets received, 6528 bps, 81.60%, Err 8 (1.5e-05)
+075.464 Slide RECV window, expect 14 next
+075.464 Acked DATA 0, slide SEND window
+075.464 Send DATA 8 13, ID 20264
+075.733 Recv DATA 14 0, ID 10238
+075.733 Deliver DATA 14, ID 10238
+075.733 Slide RECV window, expect 15 next
+075.861 ---- ACK timeout
+075.861 Send ACK  14
+075.987 Recv DATA 15 0, ID 10239
+075.987 Deliver DATA 15, ID 10239
+075.987 Slide RECV window, expect 0 next
+076.113 ---- ACK timeout
+076.113 Send ACK  15
+076.256 Recv DATA 0 0, ID 10240
+076.256 Deliver DATA 0, ID 10240
+076.257 Slide RECV window, expect 1 next
+076.384 ---- ACK timeout
+076.384 Send ACK  0
+076.526 Recv DATA 1 1, ID 10241
+076.526 Deliver DATA 1, ID 10241
+076.526 Slide RECV window, expect 2 next
+076.526 Acked DATA 1, slide SEND window
+076.527 Send DATA 9 1, ID 20265
+076.798 Recv DATA 2 2, ID 10242
+076.798 Deliver DATA 2, ID 10242
+076.798 Slide RECV window, expect 3 next
+076.798 Acked DATA 2, slide SEND window
+076.798 Send DATA 10 2, ID 20266
+077.051 Recv DATA 3 3, ID 10243
+077.051 Deliver DATA 3, ID 10243
+077.051 Slide RECV window, expect 4 next
+077.051 Acked DATA 3, slide SEND window
+077.051 Send DATA 11 3, ID 20267
+077.306 Recv DATA 4 4, ID 10244
+077.306 Deliver DATA 4, ID 10244
+077.306 Slide RECV window, expect 5 next
+077.306 Acked DATA 4, slide SEND window
+077.306 Send DATA 12 4, ID 20268
+077.322 Recv ACK  5
+077.322 Acked DATA 5, slide SEND window
+077.322 Send DATA 13 4, ID 20269
+077.353 Recv ACK  6
+077.353 Acked DATA 6, slide SEND window
+077.353 Send DATA 14 4, ID 20270
+077.369 Recv ACK  7
+077.369 Acked DATA 7, slide SEND window
+077.369 Send DATA 15 4, ID 20271
+077.591 Recv DATA 5 8, ID 10245
+077.591 Deliver DATA 5, ID 10245
+077.591 .... 246 packets received, 6561 bps, 82.01%, Err 8 (1.4e-05)
+077.591 Slide RECV window, expect 6 next
+077.591 Acked DATA 8, slide SEND window
+077.592 Send DATA 0 5, ID 20272
+077.861 Recv DATA 6 8, ID 10246
+077.861 Deliver DATA 6, ID 10246
+077.861 Slide RECV window, expect 7 next
+077.988 ---- ACK timeout
+077.988 Send ACK  6
+078.131 Recv DATA 7 8, ID 10247
+078.131 Deliver DATA 7, ID 10247
+078.131 Slide RECV window, expect 8 next
+078.258 ---- ACK timeout
+078.258 Send ACK  7
+078.400 Recv DATA 8 8, ID 10248
+078.401 Deliver DATA 8, ID 10248
+078.401 Slide RECV window, expect 9 next
+078.527 ---- ACK timeout
+078.527 Send ACK  8
+078.654 Recv DATA 9 9, ID 10249
+078.654 Deliver DATA 9, ID 10249
+078.654 Slide RECV window, expect 10 next
+078.654 Acked DATA 9, slide SEND window
+078.654 Send DATA 1 9, ID 20273
+078.924 Recv DATA 10 10, ID 10250
+078.924 Deliver DATA 10, ID 10250
+078.924 Slide RECV window, expect 11 next
+078.924 Acked DATA 10, slide SEND window
+078.925 Send DATA 2 10, ID 20274
+079.195 Recv DATA 11 11, ID 10251
+079.195 Deliver DATA 11, ID 10251
+079.195 Slide RECV window, expect 12 next
+079.195 Acked DATA 11, slide SEND window
+079.195 Send DATA 3 11, ID 20275
+079.433 Recv DATA 12 12, ID 10252
+079.433 Deliver DATA 12, ID 10252
+079.433 Slide RECV window, expect 13 next
+079.433 Acked DATA 12, slide SEND window
+079.433 Send DATA 4 12, ID 20276
+079.465 Recv NAK  13
+079.465 ---- Resend DATA 13 on NAK
+079.465 Send DATA 13 12, ID 20269
+079.655 Impose noise on received data, 9/575016=1.6E-05
+079.702 Recv DATA 13 12, ID 10253
+079.702 Deliver DATA 13, ID 10253
+079.702 .... 254 packets received, 6593 bps, 82.41%, Err 9 (1.6e-05)
+079.711 Slide RECV window, expect 14 next
+079.830 ---- ACK timeout
+079.830 Send ACK  13
+079.973 **** Receiver Error, Bad CRC Checksum
+079.973 Request NAK for 14
+079.973 Send NAK  14
+080.244 Recv DATA 15 12, ID 10255
+080.515 Recv DATA 0 12, ID 10256
+080.785 Recv DATA 1 12, ID 10257
+081.039 Recv DATA 2 12, ID 10258
+081.309 Recv DATA 3 12, ID 10259
+081.563 Recv DATA 4 12, ID 10260
+081.738 ---- DATA 14 timeout
+081.738 Send DATA 14 13, ID 20270
+081.850 Recv DATA 5 4, ID 10261
+081.850 Acked DATA 13, slide SEND window
+081.850 Acked DATA 14, slide SEND window
+081.850 Acked DATA 15, slide SEND window
+081.850 Acked DATA 0, slide SEND window
+081.850 Acked DATA 1, slide SEND window
+081.850 Acked DATA 2, slide SEND window
+081.850 Acked DATA 3, slide SEND window
+081.850 Acked DATA 4, slide SEND window
+081.850 Send DATA 5 13, ID 20277
+081.850 Send DATA 6 13, ID 20278
+081.850 Send DATA 7 13, ID 20279
+081.850 Send DATA 8 13, ID 20280
+082.550 Recv DATA 14 4, ID 10254
+082.550 Deliver DATA 14, ID 10254
+082.550 .... 255 packets received, 6388 bps, 79.85%, Err 9 (1.5e-05)
+082.550 Deliver DATA 15, ID 10255
+082.550 Deliver DATA 0, ID 10256
+082.551 Deliver DATA 1, ID 10257
+082.551 Deliver DATA 2, ID 10258
+082.551 Deliver DATA 3, ID 10259
+082.551 Deliver DATA 4, ID 10260
+082.551 Deliver DATA 5, ID 10261
+082.551 Slide RECV window, expect 6 next
+082.551 Send DATA 9 5, ID 20281
+082.551 Send DATA 10 5, ID 20282
+082.551 Send DATA 11 5, ID 20283
+082.693 Recv ACK  4
+082.946 Recv ACK  5
+082.946 Acked DATA 5, slide SEND window
+082.946 Send DATA 12 5, ID 20284
+083.215 Recv ACK  6
+083.215 Acked DATA 6, slide SEND window
+083.215 Send DATA 13 5, ID 20285
+083.486 Recv ACK  7
+083.486 Acked DATA 7, slide SEND window
+083.486 Send DATA 14 5, ID 20286
+083.947 Recv DATA 15 8, ID 10255
+083.947 Ignore out-of-window DATA 15
+083.947 Acked DATA 8, slide SEND window
+083.947 Send DATA 15 5, ID 20287
+083.947 Send DATA 0 5, ID 20288
+084.201 Recv DATA 6 9, ID 10262
+084.201 Deliver DATA 6, ID 10262
+084.201 Slide RECV window, expect 7 next
+084.201 Acked DATA 9, slide SEND window
+084.202 Send DATA 1 6, ID 20289
+084.471 Recv DATA 7 9, ID 10263
+084.471 Deliver DATA 7, ID 10263
+084.471 Slide RECV window, expect 8 next
+084.598 ---- ACK timeout
+084.599 Send ACK  7
+084.742 Recv DATA 8 9, ID 10264
+084.742 Deliver DATA 8, ID 10264
+084.742 .... 265 packets received, 6465 bps, 80.82%, Err 9 (1.5e-05)
+084.742 Slide RECV window, expect 9 next
+084.869 ---- ACK timeout
+084.869 Send ACK  8
+084.981 Recv DATA 9 9, ID 10265
+084.981 Deliver DATA 9, ID 10265
+084.981 Slide RECV window, expect 10 next
+085.108 ---- ACK timeout
+085.108 Send ACK  9
+085.251 Recv DATA 10 10, ID 10266
+085.251 Deliver DATA 10, ID 10266
+085.251 Slide RECV window, expect 11 next
+085.251 Acked DATA 10, slide SEND window
+085.251 Send DATA 2 10, ID 20290
+085.520 Recv DATA 11 11, ID 10267
+085.520 Deliver DATA 11, ID 10267
+085.520 Slide RECV window, expect 12 next
+085.520 Acked DATA 11, slide SEND window
+085.520 Send DATA 3 11, ID 20291
+085.774 Recv DATA 12 12, ID 10268
+085.774 Deliver DATA 12, ID 10268
+085.774 Slide RECV window, expect 13 next
+085.774 Acked DATA 12, slide SEND window
+085.775 Send DATA 4 12, ID 20292
+086.044 Recv DATA 13 13, ID 10269
+086.044 Deliver DATA 13, ID 10269
+086.044 Slide RECV window, expect 14 next
+086.044 Acked DATA 13, slide SEND window
+086.044 Send DATA 5 13, ID 20293
+086.076 Recv ACK  14
+086.076 Acked DATA 14, slide SEND window
+086.076 Send DATA 6 13, ID 20294
+086.107 Recv ACK  15
+086.107 Acked DATA 15, slide SEND window
+086.108 Send DATA 7 13, ID 20295
+086.139 Recv ACK  0
+086.139 Acked DATA 0, slide SEND window
+086.139 Send DATA 8 13, ID 20296
+086.346 Recv DATA 14 1, ID 10270
+086.346 Deliver DATA 14, ID 10270
+086.346 Slide RECV window, expect 15 next
+086.346 Acked DATA 1, slide SEND window
+086.346 Send DATA 9 14, ID 20297
+086.599 Recv DATA 15 1, ID 10271
+086.599 Deliver DATA 15, ID 10271
+086.599 Slide RECV window, expect 0 next
+086.725 ---- ACK timeout
+086.725 Send ACK  15
+086.868 Recv DATA 0 1, ID 10272
+086.868 Deliver DATA 0, ID 10272
+086.868 .... 273 packets received, 6496 bps, 81.20%, Err 9 (1.5e-05)
+086.870 Slide RECV window, expect 1 next
+086.996 ---- ACK timeout
+086.996 Send ACK  0
+087.123 Recv DATA 1 1, ID 10273
+087.123 Deliver DATA 1, ID 10273
+087.123 Slide RECV window, expect 2 next
+087.250 ---- ACK timeout
+087.250 Send ACK  1
+087.377 Recv DATA 2 2, ID 10274
+087.377 Deliver DATA 2, ID 10274
+087.377 Slide RECV window, expect 3 next
+087.377 Acked DATA 2, slide SEND window
+087.377 Send DATA 10 2, ID 20298
+087.647 Recv DATA 3 3, ID 10275
+087.647 Deliver DATA 3, ID 10275
+087.647 Slide RECV window, expect 4 next
+087.647 Acked DATA 3, slide SEND window
+087.647 Send DATA 11 3, ID 20299
+087.916 Recv DATA 4 4, ID 10276
+087.916 Deliver DATA 4, ID 10276
+087.916 Slide RECV window, expect 5 next
+087.916 Acked DATA 4, slide SEND window
+087.916 Send DATA 12 4, ID 20300
+088.184 Recv DATA 5 5, ID 10277
+088.184 Deliver DATA 5, ID 10277
+088.185 Slide RECV window, expect 6 next
+088.185 Acked DATA 5, slide SEND window
+088.185 Send DATA 13 5, ID 20301
+088.216 Recv ACK  6
+088.216 Acked DATA 6, slide SEND window
+088.216 Send DATA 14 5, ID 20302
+088.248 Recv ACK  7
+088.248 Acked DATA 7, slide SEND window
+088.248 Send DATA 15 5, ID 20303
+088.279 Recv ACK  8
+088.279 Acked DATA 8, slide SEND window
+088.279 Send DATA 0 5, ID 20304
+088.454 Recv DATA 6 9, ID 10278
+088.454 Deliver DATA 6, ID 10278
+088.454 Slide RECV window, expect 7 next
+088.454 Acked DATA 9, slide SEND window
+088.454 Send DATA 1 6, ID 20305
+088.724 Recv DATA 7 9, ID 10279
+088.724 Deliver DATA 7, ID 10279
+088.724 Slide RECV window, expect 8 next
+088.851 ---- ACK timeout
+088.851 Send ACK  7
+088.993 Recv DATA 8 9, ID 10280
+088.993 Deliver DATA 8, ID 10280
+088.993 .... 281 packets received, 6525 bps, 81.57%, Err 9 (1.4e-05)
+088.993 Slide RECV window, expect 9 next
+089.120 ---- ACK timeout
+089.120 Send ACK  8
+089.246 Recv DATA 9 9, ID 10281
+089.246 Deliver DATA 9, ID 10281
+089.246 Slide RECV window, expect 10 next
+089.373 ---- ACK timeout
+089.373 Send ACK  9
+089.516 Recv DATA 10 10, ID 10282
+089.516 Deliver DATA 10, ID 10282
+089.516 Slide RECV window, expect 11 next
+089.516 Acked DATA 10, slide SEND window
+089.516 Send DATA 2 10, ID 20306
+089.786 Recv DATA 11 11, ID 10283
+089.786 Deliver DATA 11, ID 10283
+089.786 Slide RECV window, expect 12 next
+089.786 Acked DATA 11, slide SEND window
+089.786 Send DATA 3 11, ID 20307
+090.040 Recv DATA 12 12, ID 10284
+090.040 Deliver DATA 12, ID 10284
+090.040 Slide RECV window, expect 13 next
+090.040 Acked DATA 12, slide SEND window
+090.040 Send DATA 4 12, ID 20308
+090.311 Recv DATA 13 13, ID 10285
+090.311 Deliver DATA 13, ID 10285
+090.311 Slide RECV window, expect 14 next
+090.311 Acked DATA 13, slide SEND window
+090.311 Send DATA 5 13, ID 20309
+090.327 Recv ACK  14
+090.327 Acked DATA 14, slide SEND window
+090.327 Send DATA 6 13, ID 20310
+090.342 Recv ACK  15
+090.342 Acked DATA 15, slide SEND window
+090.342 Send DATA 7 13, ID 20311
+090.374 Recv ACK  0
+090.374 Acked DATA 0, slide SEND window
+090.374 Send DATA 8 13, ID 20312
+090.595 Recv DATA 14 1, ID 10286
+090.595 Deliver DATA 14, ID 10286
+090.595 Slide RECV window, expect 15 next
+090.595 Acked DATA 1, slide SEND window
+090.596 Send DATA 9 14, ID 20313
+090.866 Recv DATA 15 1, ID 10287
+090.866 Deliver DATA 15, ID 10287
+090.866 Slide RECV window, expect 0 next
+090.994 ---- ACK timeout
+090.994 Send ACK  15
+091.136 Recv DATA 0 1, ID 10288
+091.136 Deliver DATA 0, ID 10288
+091.136 .... 289 packets received, 6552 bps, 81.90%, Err 9 (1.4e-05)
+091.136 Slide RECV window, expect 1 next
+091.278 ---- ACK timeout
+091.278 Send ACK  0
+091.405 Recv DATA 1 1, ID 10289
+091.405 Deliver DATA 1, ID 10289
+091.405 Slide RECV window, expect 2 next
+091.532 ---- ACK timeout
+091.532 Send ACK  1
+091.659 Recv DATA 2 2, ID 10290
+091.659 Deliver DATA 2, ID 10290
+091.659 Slide RECV window, expect 3 next
+091.659 Acked DATA 2, slide SEND window
+091.659 Send DATA 10 2, ID 20314
+091.929 Recv DATA 3 3, ID 10291
+091.929 Deliver DATA 3, ID 10291
+091.929 Slide RECV window, expect 4 next
+091.929 Acked DATA 3, slide SEND window
+091.930 Send DATA 11 3, ID 20315
+092.198 Recv DATA 4 4, ID 10292
+092.198 Deliver DATA 4, ID 10292
+092.198 Slide RECV window, expect 5 next
+092.207 Acked DATA 4, slide SEND window
+092.207 Send DATA 12 4, ID 20316
+092.437 Recv DATA 5 5, ID 10293
+092.437 Deliver DATA 5, ID 10293
+092.437 Slide RECV window, expect 6 next
+092.437 Acked DATA 5, slide SEND window
+092.437 Send DATA 13 5, ID 20317
+092.453 Recv ACK  6
+092.453 Acked DATA 6, slide SEND window
+092.453 Send DATA 14 5, ID 20318
+092.468 Recv ACK  7
+092.468 Acked DATA 7, slide SEND window
+092.469 Send DATA 15 5, ID 20319
+092.500 Recv ACK  8
+092.500 Acked DATA 8, slide SEND window
+092.500 Send DATA 0 5, ID 20320
+092.722 Recv DATA 6 9, ID 10294
+092.722 Deliver DATA 6, ID 10294
+092.722 Slide RECV window, expect 7 next
+092.722 Acked DATA 9, slide SEND window
+092.722 Send DATA 1 6, ID 20321
+092.992 Recv DATA 7 9, ID 10295
+092.992 Deliver DATA 7, ID 10295
+092.992 Slide RECV window, expect 8 next
+093.119 ---- ACK timeout
+093.119 Send ACK  7
+093.261 Recv DATA 8 9, ID 10296
+093.261 Deliver DATA 8, ID 10296
+093.261 .... 297 packets received, 6578 bps, 82.23%, Err 9 (1.3e-05)
+093.261 Slide RECV window, expect 9 next
+093.388 ---- ACK timeout
+093.388 Send ACK  8
+093.531 Recv DATA 9 9, ID 10297
+093.531 Deliver DATA 9, ID 10297
+093.531 Slide RECV window, expect 10 next
+093.659 ---- ACK timeout
+093.659 Send ACK  9
+093.801 Recv DATA 10 10, ID 10298
+093.801 Deliver DATA 10, ID 10298
+093.801 Slide RECV window, expect 11 next
+093.801 Acked DATA 10, slide SEND window
+093.802 Send DATA 2 10, ID 20322
+094.054 Recv DATA 11 11, ID 10299
+094.054 Deliver DATA 11, ID 10299
+094.054 Slide RECV window, expect 12 next
+094.054 Acked DATA 11, slide SEND window
+094.054 Send DATA 3 11, ID 20323
+094.308 Recv DATA 12 12, ID 10300
+094.308 Deliver DATA 12, ID 10300
+094.308 Slide RECV window, expect 13 next
+094.308 Acked DATA 12, slide SEND window
+094.309 Send DATA 4 12, ID 20324
+094.578 Recv DATA 13 13, ID 10301
+094.578 Deliver DATA 13, ID 10301
+094.578 Slide RECV window, expect 14 next
+094.578 Acked DATA 13, slide SEND window
+094.578 Send DATA 5 13, ID 20325
+094.610 Recv ACK  14
+094.610 Acked DATA 14, slide SEND window
+094.610 Send DATA 6 13, ID 20326
+094.642 Recv ACK  15
+094.642 Acked DATA 15, slide SEND window
+094.642 Send DATA 7 13, ID 20327
+094.673 Recv NAK  0
+094.673 ---- Resend DATA 0 on NAK
+094.673 Send DATA 0 13, ID 20320
+094.880 Recv DATA 14 15, ID 10302
+094.880 Deliver DATA 14, ID 10302
+094.880 Slide RECV window, expect 15 next
+095.007 ---- ACK timeout
+095.007 Send ACK  14
+095.134 Recv DATA 15 15, ID 10303
+095.134 Deliver DATA 15, ID 10303
+095.134 Slide RECV window, expect 0 next
+095.261 ---- ACK timeout
+095.261 Send ACK  15
+095.404 Recv DATA 0 15, ID 10304
+095.404 Deliver DATA 0, ID 10304
+095.404 .... 305 packets received, 6603 bps, 82.53%, Err 9 (1.3e-05)
+095.404 Slide RECV window, expect 1 next
+095.530 ---- ACK timeout
+095.530 Send ACK  0
+095.672 Recv DATA 1 15, ID 10305
+095.672 Deliver DATA 1, ID 10305
+095.672 Slide RECV window, expect 2 next
+095.799 ---- ACK timeout
+095.800 Send ACK  1
+095.926 Recv DATA 2 15, ID 10306
+095.926 Deliver DATA 2, ID 10306
+095.926 Slide RECV window, expect 3 next
+096.053 ---- ACK timeout
+096.053 Send ACK  2
+096.196 Recv DATA 3 15, ID 10307
+096.196 Deliver DATA 3, ID 10307
+096.196 Slide RECV window, expect 4 next
+096.323 ---- ACK timeout
+096.323 Send ACK  3
+096.466 Recv DATA 4 15, ID 10308
+096.466 Deliver DATA 4, ID 10308
+096.466 Slide RECV window, expect 5 next
+096.593 ---- ACK timeout
+096.593 Send ACK  4
+096.720 Recv DATA 5 15, ID 10309
+096.720 Deliver DATA 5, ID 10309
+096.720 Slide RECV window, expect 6 next
+096.735 Recv ACK  7
+096.735 Acked DATA 0, slide SEND window
+096.735 Acked DATA 1, slide SEND window
+096.735 Acked DATA 2, slide SEND window
+096.735 Acked DATA 3, slide SEND window
+096.735 Acked DATA 4, slide SEND window
+096.735 Acked DATA 5, slide SEND window
+096.735 Acked DATA 6, slide SEND window
+096.735 Acked DATA 7, slide SEND window
+096.735 Send DATA 8 5, ID 20328
+096.737 Send DATA 9 5, ID 20329
+096.737 Send DATA 10 5, ID 20330
+096.737 Send DATA 11 5, ID 20331
+096.737 Send DATA 12 5, ID 20332
+096.973 Recv DATA 6 7, ID 10310
+096.973 Deliver DATA 6, ID 10310
+096.973 Slide RECV window, expect 7 next
+097.100 ---- ACK timeout
+097.100 Send ACK  6
+097.101 Send DATA 13 6, ID 20333
+097.243 Recv DATA 7 7, ID 10311
+097.243 Deliver DATA 7, ID 10311
+097.243 Slide RECV window, expect 8 next
+097.370 ---- ACK timeout
+097.370 Send ACK  7
+097.370 Send DATA 14 7, ID 20334
+097.513 Recv DATA 8 7, ID 10312
+097.513 Deliver DATA 8, ID 10312
+097.513 .... 313 packets received, 6628 bps, 82.85%, Err 9 (1.3e-05)
+097.513 Slide RECV window, expect 9 next
+097.640 ---- ACK timeout
+097.640 Send ACK  8
+097.640 Send DATA 15 8, ID 20335
+097.783 Recv DATA 9 7, ID 10313
+097.783 Deliver DATA 9, ID 10313
+097.783 Slide RECV window, expect 10 next
+097.910 ---- ACK timeout
+097.910 Send ACK  9
+098.054 Recv DATA 10 7, ID 10314
+098.054 Deliver DATA 10, ID 10314
+098.054 Slide RECV window, expect 11 next
+098.181 ---- ACK timeout
+098.181 Send ACK  10
+098.308 Recv DATA 11 7, ID 10315
+098.308 Deliver DATA 11, ID 10315
+098.308 Slide RECV window, expect 12 next
+098.435 ---- ACK timeout
+098.435 Send ACK  11
+098.578 Recv DATA 12 7, ID 10316
+098.578 Deliver DATA 12, ID 10316
+098.578 Slide RECV window, expect 13 next
+098.705 ---- ACK timeout
+098.705 Send ACK  12
+098.847 Recv DATA 13 8, ID 10317
+098.847 Deliver DATA 13, ID 10317
+098.847 Slide RECV window, expect 14 next
+098.847 Acked DATA 8, slide SEND window
+098.847 Send DATA 0 13, ID 20336
+098.879 Recv ACK  9
+098.879 Acked DATA 9, slide SEND window
+098.879 Send DATA 1 13, ID 20337
+098.894 Recv ACK  10
+098.894 Acked DATA 10, slide SEND window
+098.895 Send DATA 2 13, ID 20338
+098.926 Recv ACK  11
+098.926 Acked DATA 11, slide SEND window
+098.926 Send DATA 3 13, ID 20339
+099.116 Recv DATA 14 12, ID 10318
+099.117 Deliver DATA 14, ID 10318
+099.117 Slide RECV window, expect 15 next
+099.117 Acked DATA 12, slide SEND window
+099.117 Send DATA 4 14, ID 20340
+099.385 Recv DATA 15 13, ID 10319
+099.385 Deliver DATA 15, ID 10319
+099.385 Slide RECV window, expect 0 next
+099.385 Acked DATA 13, slide SEND window
+099.386 Send DATA 5 15, ID 20341
+099.656 Recv DATA 0 14, ID 10320
+099.656 Deliver DATA 0, ID 10320
+099.656 .... 321 packets received, 6650 bps, 83.13%, Err 9 (1.2e-05)
+099.656 Slide RECV window, expect 1 next
+099.656 Acked DATA 14, slide SEND window
+099.656 Send DATA 6 0, ID 20342
+099.925 Recv DATA 1 15, ID 10321
+099.925 Deliver DATA 1, ID 10321
+099.925 Slide RECV window, expect 2 next
+099.925 Acked DATA 15, slide SEND window
+099.925 Send DATA 7 1, ID 20343
+100.164 Recv DATA 2 15, ID 10322
+100.164 Deliver DATA 2, ID 10322
+100.164 Slide RECV window, expect 3 next
+100.292 ---- ACK timeout
+100.292 Send ACK  2
+100.434 Recv DATA 3 15, ID 10323
+100.434 Deliver DATA 3, ID 10323
+100.434 Slide RECV window, expect 4 next
+100.562 ---- ACK timeout
+100.562 Send ACK  3
+100.704 Recv DATA 4 15, ID 10324
+100.704 Deliver DATA 4, ID 10324
+100.704 Slide RECV window, expect 5 next
+100.832 ---- ACK timeout
+100.832 Send ACK  4
+100.974 Recv DATA 5 0, ID 10325
+100.974 Deliver DATA 5, ID 10325
+100.974 Slide RECV window, expect 6 next
+100.974 Acked DATA 0, slide SEND window
+100.975 Send DATA 8 5, ID 20344
+101.006 Recv ACK  1
+101.007 Acked DATA 1, slide SEND window
+101.007 Send DATA 9 5, ID 20345
+101.039 Recv ACK  2
+101.039 Acked DATA 2, slide SEND window
+101.039 Send DATA 10 5, ID 20346
+101.070 Recv ACK  3
+101.070 Acked DATA 3, slide SEND window
+101.071 Send DATA 11 5, ID 20347
+101.245 Recv DATA 6 4, ID 10326
+101.245 Deliver DATA 6, ID 10326
+101.245 Slide RECV window, expect 7 next
+101.245 Acked DATA 4, slide SEND window
+101.245 Send DATA 12 6, ID 20348
+101.515 Recv DATA 7 5, ID 10327
+101.515 Deliver DATA 7, ID 10327
+101.515 Slide RECV window, expect 8 next
+101.515 Acked DATA 5, slide SEND window
+101.515 Send DATA 13 7, ID 20349
+101.787 Recv DATA 8 6, ID 10328
+101.787 Deliver DATA 8, ID 10328
+101.787 .... 329 packets received, 6672 bps, 83.40%, Err 9 (1.2e-05)
+101.787 Slide RECV window, expect 9 next
+101.787 Acked DATA 6, slide SEND window
+101.787 Send DATA 14 8, ID 20350
+102.058 Recv DATA 9 7, ID 10329
+102.058 Deliver DATA 9, ID 10329
+102.058 Slide RECV window, expect 10 next
+102.058 Acked DATA 7, slide SEND window
+102.058 Send DATA 15 9, ID 20351
+102.312 Recv DATA 10 7, ID 10330
+102.312 Deliver DATA 10, ID 10330
+102.312 Slide RECV window, expect 11 next
+102.439 ---- ACK timeout
+102.439 Send ACK  10
+102.582 Recv DATA 11 7, ID 10331
+102.582 Deliver DATA 11, ID 10331
+102.582 Slide RECV window, expect 12 next
+102.708 ---- ACK timeout
+102.708 Send ACK  11
+102.851 Recv DATA 12 7, ID 10332
+102.851 Deliver DATA 12, ID 10332
+102.851 Slide RECV window, expect 13 next
+102.978 ---- ACK timeout
+102.978 Send ACK  12
+103.089 Recv DATA 13 8, ID 10333
+103.089 Deliver DATA 13, ID 10333
+103.089 Slide RECV window, expect 14 next
+103.089 Acked DATA 8, slide SEND window
+103.089 Send DATA 0 13, ID 20352
+103.121 Recv ACK  9
+103.121 Acked DATA 9, slide SEND window
+103.121 Send DATA 1 13, ID 20353
+103.153 Recv ACK  10
+103.153 Acked DATA 10, slide SEND window
+103.153 Send DATA 2 13, ID 20354
+103.185 Recv ACK  11
+103.185 Acked DATA 11, slide SEND window
+103.185 Send DATA 3 13, ID 20355
+103.390 Recv DATA 14 12, ID 10334
+103.390 Deliver DATA 14, ID 10334
+103.390 Slide RECV window, expect 15 next
+103.390 Acked DATA 12, slide SEND window
+103.390 Send DATA 4 14, ID 20356
+103.668 Recv DATA 15 13, ID 10335
+103.668 Deliver DATA 15, ID 10335
+103.668 Slide RECV window, expect 0 next
+103.668 Acked DATA 13, slide SEND window
+103.668 Send DATA 5 15, ID 20357
+103.927 Recv DATA 0 14, ID 10336
+103.927 Deliver DATA 0, ID 10336
+103.927 .... 337 packets received, 6692 bps, 83.66%, Err 9 (1.2e-05)
+103.927 Slide RECV window, expect 1 next
+103.927 Acked DATA 14, slide SEND window
+103.927 Send DATA 6 0, ID 20358
+104.181 Recv DATA 1 15, ID 10337
+104.181 Deliver DATA 1, ID 10337
+104.181 Slide RECV window, expect 2 next
+104.181 Acked DATA 15, slide SEND window
+104.181 Send DATA 7 1, ID 20359
+104.434 Recv DATA 2 15, ID 10338
+104.434 Deliver DATA 2, ID 10338
+104.434 Slide RECV window, expect 3 next
+104.561 ---- ACK timeout
+104.561 Send ACK  2
+104.704 Recv DATA 3 15, ID 10339
+104.704 Deliver DATA 3, ID 10339
+104.704 Slide RECV window, expect 4 next
+104.830 ---- ACK timeout
+104.830 Send ACK  3
+104.957 Recv DATA 4 15, ID 10340
+104.957 Deliver DATA 4, ID 10340
+104.957 Slide RECV window, expect 5 next
+105.084 ---- ACK timeout
+105.084 Send ACK  4
+105.227 Recv DATA 5 0, ID 10341
+105.227 Deliver DATA 5, ID 10341
+105.227 Slide RECV window, expect 6 next
+105.227 Acked DATA 0, slide SEND window
+105.227 Send DATA 8 5, ID 20360
+105.259 Recv ACK  1
+105.259 Acked DATA 1, slide SEND window
+105.259 Send DATA 9 5, ID 20361
+105.275 Recv ACK  2
+105.275 Acked DATA 2, slide SEND window
+105.275 Send DATA 10 5, ID 20362
+105.307 Recv ACK  3
+105.307 Acked DATA 3, slide SEND window
+105.307 Send DATA 11 5, ID 20363
+105.530 Recv DATA 6 4, ID 10342
+105.530 Deliver DATA 6, ID 10342
+105.530 Slide RECV window, expect 7 next
+105.530 Acked DATA 4, slide SEND window
+105.530 Send DATA 12 6, ID 20364
+105.784 Recv DATA 7 5, ID 10343
+105.784 Deliver DATA 7, ID 10343
+105.784 Slide RECV window, expect 8 next
+105.784 Acked DATA 5, slide SEND window
+105.784 Send DATA 13 7, ID 20365
+106.039 Recv DATA 8 6, ID 10344
+106.039 Deliver DATA 8, ID 10344
+106.039 .... 345 packets received, 6714 bps, 83.92%, Err 9 (1.2e-05)
+106.039 Slide RECV window, expect 9 next
+106.039 Acked DATA 6, slide SEND window
+106.039 Send DATA 14 8, ID 20366
+106.308 Recv DATA 9 7, ID 10345
+106.308 Deliver DATA 9, ID 10345
+106.308 Slide RECV window, expect 10 next
+106.308 Acked DATA 7, slide SEND window
+106.308 Send DATA 15 9, ID 20367
+106.579 Recv DATA 10 7, ID 10346
+106.579 Deliver DATA 10, ID 10346
+106.579 Slide RECV window, expect 11 next
+106.706 ---- ACK timeout
+106.706 Send ACK  10
+106.834 Recv DATA 11 7, ID 10347
+106.834 Deliver DATA 11, ID 10347
+106.834 Slide RECV window, expect 12 next
+106.961 ---- ACK timeout
+106.961 Send ACK  11
+107.088 Recv DATA 12 7, ID 10348
+107.088 Deliver DATA 12, ID 10348
+107.088 Slide RECV window, expect 13 next
+107.214 ---- ACK timeout
+107.214 Send ACK  12
+107.357 Recv DATA 13 8, ID 10349
+107.357 Deliver DATA 13, ID 10349
+107.357 Slide RECV window, expect 14 next
+107.357 Acked DATA 8, slide SEND window
+107.357 Send DATA 0 13, ID 20368
+107.389 Recv ACK  9
+107.389 Acked DATA 9, slide SEND window
+107.389 Send DATA 1 13, ID 20369
+107.437 Recv ACK  10
+107.437 Acked DATA 10, slide SEND window
+107.437 Send DATA 2 13, ID 20370
+107.468 Recv ACK  11
+107.468 Acked DATA 11, slide SEND window
+107.468 Send DATA 3 13, ID 20371
+107.660 Recv DATA 14 12, ID 10350
+107.660 Deliver DATA 14, ID 10350
+107.660 Slide RECV window, expect 15 next
+107.660 Acked DATA 12, slide SEND window
+107.660 Send DATA 4 14, ID 20372
+107.913 Recv DATA 15 13, ID 10351
+107.913 Deliver DATA 15, ID 10351
+107.913 Slide RECV window, expect 0 next
+107.913 Acked DATA 13, slide SEND window
+107.914 Send DATA 5 15, ID 20373
+108.183 Recv DATA 0 14, ID 10352
+108.183 Deliver DATA 0, ID 10352
+108.183 .... 353 packets received, 6732 bps, 84.15%, Err 9 (1.1e-05)
+108.183 Slide RECV window, expect 1 next
+108.183 Acked DATA 14, slide SEND window
+108.184 Send DATA 6 0, ID 20374
+108.437 Recv DATA 1 15, ID 10353
+108.437 Deliver DATA 1, ID 10353
+108.437 Slide RECV window, expect 2 next
+108.437 Acked DATA 15, slide SEND window
+108.437 Send DATA 7 1, ID 20375
+108.706 Recv DATA 2 15, ID 10354
+108.706 Deliver DATA 2, ID 10354
+108.706 Slide RECV window, expect 3 next
+108.833 ---- ACK timeout
+108.834 Send ACK  2
+108.975 Recv DATA 3 15, ID 10355
+108.976 Deliver DATA 3, ID 10355
+108.976 Slide RECV window, expect 4 next
+109.103 ---- ACK timeout
+109.103 Send ACK  3
+109.230 Recv DATA 4 15, ID 10356
+109.230 Deliver DATA 4, ID 10356
+109.230 Slide RECV window, expect 5 next
+109.357 ---- ACK timeout
+109.357 Send ACK  4
+109.498 Recv DATA 5 0, ID 10357
+109.498 Deliver DATA 5, ID 10357
+109.498 Slide RECV window, expect 6 next
+109.498 Acked DATA 0, slide SEND window
+109.498 Send DATA 8 5, ID 20376
+109.530 Recv ACK  1
+109.530 Acked DATA 1, slide SEND window
+109.530 Send DATA 9 5, ID 20377
+109.545 Recv ACK  2
+109.545 Acked DATA 2, slide SEND window
+109.546 Send DATA 10 5, ID 20378
+109.561 Recv ACK  3
+109.561 Acked DATA 3, slide SEND window
+109.561 Send DATA 11 5, ID 20379
+109.801 Recv DATA 6 4, ID 10358
+109.801 Deliver DATA 6, ID 10358
+109.801 Slide RECV window, expect 7 next
+109.801 Acked DATA 4, slide SEND window
+109.801 Send DATA 12 6, ID 20380
+110.039 Recv DATA 7 5, ID 10359
+110.039 Deliver DATA 7, ID 10359
+110.039 Slide RECV window, expect 8 next
+110.039 Acked DATA 5, slide SEND window
+110.039 Send DATA 13 7, ID 20381
+110.309 Recv DATA 8 6, ID 10360
+110.309 Deliver DATA 8, ID 10360
+110.309 .... 361 packets received, 6751 bps, 84.39%, Err 9 (1.1e-05)
+110.309 Slide RECV window, expect 9 next
+110.309 Acked DATA 6, slide SEND window
+110.309 Send DATA 14 8, ID 20382
+110.564 Recv DATA 9 7, ID 10361
+110.564 Deliver DATA 9, ID 10361
+110.564 Slide RECV window, expect 10 next
+110.564 Acked DATA 7, slide SEND window
+110.564 Send DATA 15 9, ID 20383
+110.834 Recv DATA 10 7, ID 10362
+110.834 Deliver DATA 10, ID 10362
+110.834 Slide RECV window, expect 11 next
+110.960 ---- ACK timeout
+110.960 Send ACK  10
+111.103 Recv DATA 11 7, ID 10363
+111.103 Deliver DATA 11, ID 10363
+111.103 Slide RECV window, expect 12 next
+111.230 ---- ACK timeout
+111.230 Send ACK  11
+111.356 Recv DATA 12 7, ID 10364
+111.356 Deliver DATA 12, ID 10364
+111.356 Slide RECV window, expect 13 next
+111.482 ---- ACK timeout
+111.482 Send ACK  12
+111.624 Recv DATA 13 8, ID 10365
+111.624 Deliver DATA 13, ID 10365
+111.624 Slide RECV window, expect 14 next
+111.624 Acked DATA 8, slide SEND window
+111.624 Send DATA 0 13, ID 20384
+111.655 Recv ACK  9
+111.655 Acked DATA 9, slide SEND window
+111.656 Send DATA 1 13, ID 20385
+111.671 Recv ACK  10
+111.671 Acked DATA 10, slide SEND window
+111.672 Send DATA 2 13, ID 20386
+111.703 Recv ACK  11
+111.703 Acked DATA 11, slide SEND window
+111.703 Send DATA 3 13, ID 20387
+111.926 Recv DATA 14 12, ID 10366
+111.926 Deliver DATA 14, ID 10366
+111.926 Slide RECV window, expect 15 next
+111.926 Acked DATA 12, slide SEND window
+111.926 Send DATA 4 14, ID 20388
+112.196 Recv DATA 15 13, ID 10367
+112.196 Deliver DATA 15, ID 10367
+112.196 Slide RECV window, expect 0 next
+112.196 Acked DATA 13, slide SEND window
+112.196 Send DATA 5 15, ID 20389
+112.435 Recv DATA 0 14, ID 10368
+112.444 Deliver DATA 0, ID 10368
+112.444 .... 369 packets received, 6769 bps, 84.62%, Err 9 (1.1e-05)
+112.444 Slide RECV window, expect 1 next
+112.444 Acked DATA 14, slide SEND window
+112.444 Send DATA 6 0, ID 20390
+112.705 Recv DATA 1 15, ID 10369
+112.705 Deliver DATA 1, ID 10369
+112.705 Slide RECV window, expect 2 next
+112.705 Acked DATA 15, slide SEND window
+112.705 Send DATA 7 1, ID 20391
+112.974 Recv DATA 2 15, ID 10370
+112.974 Deliver DATA 2, ID 10370
+112.974 Slide RECV window, expect 3 next
+113.101 ---- ACK timeout
+113.101 Send ACK  2
+113.245 Recv DATA 3 15, ID 10371
+113.245 Deliver DATA 3, ID 10371
+113.245 Slide RECV window, expect 4 next
+113.372 ---- ACK timeout
+113.372 Send ACK  3
+113.515 Recv DATA 4 15, ID 10372
+113.515 Deliver DATA 4, ID 10372
+113.515 Slide RECV window, expect 5 next
+113.641 ---- ACK timeout
+113.641 Send ACK  4
+113.753 Recv DATA 5 0, ID 10373
+113.753 Deliver DATA 5, ID 10373
+113.753 Slide RECV window, expect 6 next
+113.753 Acked DATA 0, slide SEND window
+113.753 Send DATA 8 5, ID 20392
+113.785 Recv ACK  1
+113.785 Acked DATA 1, slide SEND window
+113.785 Send DATA 9 5, ID 20393
+113.817 Recv ACK  2
+113.817 Acked DATA 2, slide SEND window
+113.817 Send DATA 10 5, ID 20394
+113.848 Recv ACK  3
+113.848 Acked DATA 3, slide SEND window
+113.848 Send DATA 11 5, ID 20395
+114.055 Recv DATA 6 4, ID 10374
+114.055 Deliver DATA 6, ID 10374
+114.055 Slide RECV window, expect 7 next
+114.055 Acked DATA 4, slide SEND window
+114.056 Send DATA 12 6, ID 20396
+114.326 Recv DATA 7 5, ID 10375
+114.326 Deliver DATA 7, ID 10375
+114.326 Slide RECV window, expect 8 next
+114.326 Acked DATA 5, slide SEND window
+114.326 Send DATA 13 7, ID 20397
+114.563 Recv DATA 8 6, ID 10376
+114.563 Deliver DATA 8, ID 10376
+114.563 .... 377 packets received, 6787 bps, 84.84%, Err 9 (1.1e-05)
+114.563 Slide RECV window, expect 9 next
+114.563 Acked DATA 6, slide SEND window
+114.564 Send DATA 14 8, ID 20398
+114.833 Recv DATA 9 7, ID 10377
+114.833 Deliver DATA 9, ID 10377
+114.834 Slide RECV window, expect 10 next
+114.834 Acked DATA 7, slide SEND window
+114.834 Send DATA 15 9, ID 20399
+115.103 Recv DATA 10 7, ID 10378
+115.103 Deliver DATA 10, ID 10378
+115.103 Slide RECV window, expect 11 next
+115.230 ---- ACK timeout
+115.230 Send ACK  10
+115.373 Recv DATA 11 7, ID 10379
+115.373 Deliver DATA 11, ID 10379
+115.373 Slide RECV window, expect 12 next
+115.501 ---- ACK timeout
+115.501 Send ACK  11
+115.660 Recv DATA 12 7, ID 10380
+115.660 Deliver DATA 12, ID 10380
+115.660 Slide RECV window, expect 13 next
+115.787 ---- ACK timeout
+115.787 Send ACK  12
+115.897 Recv DATA 13 8, ID 10381
+115.897 Deliver DATA 13, ID 10381
+115.897 Slide RECV window, expect 14 next
+115.897 Acked DATA 8, slide SEND window
+115.897 Send DATA 0 13, ID 20400
+115.929 Recv ACK  9
+115.929 Acked DATA 9, slide SEND window
+115.929 Send DATA 1 13, ID 20401
+115.960 Recv ACK  10
+115.960 Acked DATA 10, slide SEND window
+115.961 Send DATA 2 13, ID 20402
+115.992 Recv ACK  11
+115.992 Acked DATA 11, slide SEND window
+115.992 Send DATA 3 13, ID 20403
+116.199 Recv DATA 14 12, ID 10382
+116.199 Deliver DATA 14, ID 10382
+116.199 Slide RECV window, expect 15 next
+116.199 Acked DATA 12, slide SEND window
+116.199 Send DATA 4 14, ID 20404
+116.438 Recv DATA 15 13, ID 10383
+116.438 Deliver DATA 15, ID 10383
+116.438 Slide RECV window, expect 0 next
+116.438 Acked DATA 13, slide SEND window
+116.438 Send DATA 5 15, ID 20405
+116.708 Recv DATA 0 14, ID 10384
+116.708 Deliver DATA 0, ID 10384
+116.708 .... 385 packets received, 6803 bps, 85.03%, Err 9 (1.0e-05)
+116.708 Slide RECV window, expect 1 next
+116.708 Acked DATA 14, slide SEND window
+116.708 Send DATA 6 0, ID 20406
+116.978 Recv DATA 1 15, ID 10385
+116.978 Deliver DATA 1, ID 10385
+116.978 Slide RECV window, expect 2 next
+116.978 Acked DATA 15, slide SEND window
+116.978 Send DATA 7 1, ID 20407
+117.233 Recv DATA 2 15, ID 10386
+117.233 Deliver DATA 2, ID 10386
+117.233 Slide RECV window, expect 3 next
+117.361 ---- ACK timeout
+117.361 Send ACK  2
+117.504 Recv DATA 3 15, ID 10387
+117.504 Deliver DATA 3, ID 10387
+117.504 Slide RECV window, expect 4 next
+117.632 ---- ACK timeout
+117.632 Send ACK  3
+117.758 Recv DATA 4 15, ID 10388
+117.758 Deliver DATA 4, ID 10388
+117.758 Slide RECV window, expect 5 next
+117.886 ---- ACK timeout
+117.886 Send ACK  4
+118.028 Recv DATA 5 0, ID 10389
+118.028 Deliver DATA 5, ID 10389
+118.028 Slide RECV window, expect 6 next
+118.028 Acked DATA 0, slide SEND window
+118.029 Send DATA 8 5, ID 20408
+118.060 Recv ACK  1
+118.060 Acked DATA 1, slide SEND window
+118.060 Send DATA 9 5, ID 20409
+118.092 Recv ACK  2
+118.092 Acked DATA 2, slide SEND window
+118.092 Send DATA 10 5, ID 20410
+118.124 Recv ACK  3
+118.124 Acked DATA 3, slide SEND window
+118.124 Send DATA 11 5, ID 20411
+118.331 Recv DATA 6 4, ID 10390
+118.331 Deliver DATA 6, ID 10390
+118.331 Slide RECV window, expect 7 next
+118.331 Acked DATA 4, slide SEND window
+118.331 Send DATA 12 6, ID 20412
+118.569 Recv DATA 7 5, ID 10391
+118.569 Deliver DATA 7, ID 10391
+118.569 Slide RECV window, expect 8 next
+118.569 Acked DATA 5, slide SEND window
+118.569 Send DATA 13 7, ID 20413
+118.838 Recv DATA 8 6, ID 10392
+118.838 Deliver DATA 8, ID 10392
+118.838 .... 393 packets received, 6819 bps, 85.23%, Err 9 (1.0e-05)
+118.838 Slide RECV window, expect 9 next
+118.838 Acked DATA 6, slide SEND window
+118.838 Send DATA 14 8, ID 20414
+119.107 Recv DATA 9 7, ID 10393
+119.107 Deliver DATA 9, ID 10393
+119.107 Slide RECV window, expect 10 next
+119.107 Acked DATA 7, slide SEND window
+119.107 Send DATA 15 9, ID 20415
+119.361 Recv DATA 10 7, ID 10394
+119.361 Deliver DATA 10, ID 10394
+119.361 Slide RECV window, expect 11 next
+119.489 ---- ACK timeout
+119.489 Send ACK  10
+119.632 Recv DATA 11 7, ID 10395
+119.632 Deliver DATA 11, ID 10395
+119.632 Slide RECV window, expect 12 next
+119.760 ---- ACK timeout
+119.760 Send ACK  11
+119.903 Recv DATA 12 7, ID 10396
+119.903 Deliver DATA 12, ID 10396
+119.903 Slide RECV window, expect 13 next
+120.030 Quit.
