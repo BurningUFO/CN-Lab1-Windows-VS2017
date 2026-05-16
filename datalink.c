@@ -8,7 +8,9 @@
 #define NR_BUFS ((MAX_SEQ + 1) / 2)
 
 #define DATA_TIMER 2200
+#ifndef ACK_TIMER
 #define ACK_TIMER 120
+#endif
 
 #define DATA_FRAME_LEN (3 + PKT_LEN + 4)
 #define CTRL_FRAME_LEN (2 + 4)
