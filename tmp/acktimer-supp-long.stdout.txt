@@ -1,0 +1,3 @@
+RUN_ROOT=C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\4.3-ACK搭载定时器\ack-opt-dt2200-bg3-20260516-211648
+Stage batch: 02b-补充长测-20min; ACK_TIMER=100, 140, 160, 200; Duration=1200; Utopia=False
+RESULTS=C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\4.3-ACK搭载定时器\ack-opt-dt2200-bg3-20260516-211648\02b-补充长测-20min\results.csv

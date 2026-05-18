@@ -1,0 +1,4 @@
+Building initial ACK_TIMER candidates...
+Stage 1: coarse screening (parallel candidate builds, batched execution).
+Stage 2 candidates: 80, 120, 180
+Stage 3 champion retest: ACK_TIMER=80

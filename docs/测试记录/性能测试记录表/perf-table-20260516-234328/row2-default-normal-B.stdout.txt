@@ -1,0 +1,7 @@
+000.000 =============================================================
+000.000                     Station B                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
+000.000 Log file "C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-234328\row2-default-normal-B.log", TCP port 65102, debug mask 0x00
+000.000 Station B is connecting station A (TCP port 65102) ... 

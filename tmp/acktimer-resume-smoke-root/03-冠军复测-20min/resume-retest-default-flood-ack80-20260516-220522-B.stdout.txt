@@ -1,0 +1,32 @@
+000.000 =============================================================
+000.000                     Station B                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
+000.000 Log file "C:\code\CN-Lab1-Windows-VS2017\tmp\acktimer-resume-smoke-root\03-冠军复测-20min\resume-retest-default-flood-ack80-20260516-220522-B.log", TCP port 62000, debug mask 0x07
+000.000 Station B is connecting station A (TCP port 62000) ... Done.
+000.656 New epoch: Sat May 16 22:05:22 2026
+000.656 =================================================================
+000.656 
+000.656 Designed by Jiang Yanjun, build: May 16 2026  21:16:51
+000.656 Send DATA 0 15, ID 20000
+000.656 Send DATA 1 15, ID 20001
+000.656 Send DATA 2 15, ID 20002
+001.224 Recv DATA 0 15, ID 10000
+001.224 Deliver DATA 0, ID 10000
+001.224 Slide RECV window, expect 1 next
+001.224 Send DATA 3 0, ID 20003
+001.224 Send DATA 4 0, ID 20004
+001.224 Send DATA 5 0, ID 20005
+001.490 Recv DATA 1 15, ID 10001
+001.490 Deliver DATA 1, ID 10001
+001.490 Slide RECV window, expect 2 next
+001.490 Send DATA 6 1, ID 20006
+001.757 Recv DATA 2 15, ID 10002
+001.757 Deliver DATA 2, ID 10002
+001.757 Slide RECV window, expect 3 next
+001.758 Send DATA 7 2, ID 20007
+002.025 Recv DATA 3 15, ID 10003
+002.025 Deliver DATA 3, ID 10003
+002.025 Slide RECV window, expect 4 next
+002.055 Quit.

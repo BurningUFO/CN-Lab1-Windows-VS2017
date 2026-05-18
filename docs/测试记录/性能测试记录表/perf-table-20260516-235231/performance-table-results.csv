@@ -1,0 +1,11 @@
+﻿Id,Tag,CommandOption,Description,Station,RuntimeSec,Port,PID,FinalTime,Packets,Bps,UtilizationPercent,ErrCount,ObservedBER,Issue,Log
+1,utopia-normal,--utopia,无误码信道数据传输,A,620,65101,13600,617.994,1278,4244,53.05,0,0.0e+00,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row1-utopia-normal-A.log
+1,utopia-normal,--utopia,无误码信道数据传输,B,620,65101,6384,619.609,2344,7756,96.95,0,0.0e+00,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row1-utopia-normal-B.log
+2,default-normal,无,站点A平缓方式发出数据，站点B周期性交替发送/停发,A,620,65102,24720,619.646,1185,3925,49.06,25,9.4e-06,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row2-default-normal-A.log
+2,default-normal,无,站点A平缓方式发出数据，站点B周期性交替发送/停发,B,620,65102,24700,617.512,2178,7237,90.46,48,1.0e-05,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row2-default-normal-B.log
+3,utopia-flood,--flood --utopia,无误码信道，A/B 洪水式产生分组,A,620,65103,16064,618.007,2336,7749,96.86,0,0.0e+00,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row3-utopia-flood-A.log
+3,utopia-flood,--flood --utopia,无误码信道，A/B 洪水式产生分组,B,620,65103,11744,617.959,2336,7749,96.87,0,0.0e+00,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row3-utopia-flood-B.log
+4,default-flood,--flood,默认误码率，A/B 洪水式产生分组,A,620,65104,5088,619.009,2110,6993,87.41,46,9.8e-06,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row4-default-flood-A.log
+4,default-flood,--flood,默认误码率，A/B 洪水式产生分组,B,620,65104,14748,618.210,2054,6816,85.20,47,1.0e-05,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row4-default-flood-B.log
+5,highber-flood,--flood --ber=1e-4,误码率 1e-4，A/B 洪水式产生分组,A,620,65105,13704,616.326,1163,3868,48.34,406,1.0e-04,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row5-highber-flood-A.log
+5,highber-flood,--flood --ber=1e-4,误码率 1e-4，A/B 洪水式产生分组,B,620,65105,12168,618.994,1143,3785,47.31,406,1.0e-04,,C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\性能测试记录表\perf-table-20260516-235231\row5-highber-flood-B.log

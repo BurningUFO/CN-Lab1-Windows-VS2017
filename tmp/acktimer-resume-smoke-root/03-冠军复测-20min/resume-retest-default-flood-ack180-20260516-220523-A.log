@@ -1,0 +1,36 @@
+000.000 =============================================================
+000.000                     Station A                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
+000.000 Log file "C:\code\CN-Lab1-Windows-VS2017\tmp\acktimer-resume-smoke-root\03-冠军复测-20min\resume-retest-default-flood-ack180-20260516-220523-A.log", TCP port 62002, debug mask 0x07
+000.000 Station A is waiting for station B on TCP port 62002 ... Done.
+000.537 New epoch: Sat May 16 22:05:23 2026
+000.537 =================================================================
+000.537 
+000.537 Designed by Jiang Yanjun, build: May 16 2026  21:17:06
+000.537 Send DATA 0 15, ID 10000
+000.537 Send DATA 1 15, ID 10001
+000.538 Send DATA 2 15, ID 10002
+000.538 Send DATA 3 15, ID 10003
+001.112 Recv DATA 0 15, ID 20000
+001.112 Deliver DATA 0, ID 20000
+001.112 Slide RECV window, expect 1 next
+001.112 Send DATA 4 0, ID 10004
+001.113 Send DATA 5 0, ID 10005
+001.356 Recv DATA 1 15, ID 20001
+001.356 Deliver DATA 1, ID 20001
+001.356 Slide RECV window, expect 2 next
+001.557 ---- ACK timeout
+001.557 Send ACK  1
+001.557 Send DATA 6 1, ID 10006
+001.632 Recv DATA 2 15, ID 20002
+001.632 Deliver DATA 2, ID 20002
+001.632 Slide RECV window, expect 3 next
+001.633 Send DATA 7 2, ID 10007
+001.776 Impose noise on received data, 1/9912=1.0E-04
+001.865 Recv DATA 3 0, ID 20003
+001.865 Deliver DATA 3, ID 20003
+001.865 Slide RECV window, expect 4 next
+001.865 Acked DATA 0, slide SEND window
+002.027 Quit.

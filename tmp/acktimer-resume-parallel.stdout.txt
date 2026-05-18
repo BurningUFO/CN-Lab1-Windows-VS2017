@@ -1,0 +1,6 @@
+RUN_ROOT=C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\4.3-ACK搭载定时器\ack-opt-dt2200-bg3-20260516-211648
+Stage 3 parallel retest: ACK_TIMER=80, 120, 180
+Stage 4 parallel no-error validation: ACK_TIMER=80, 120, 180
+
+FINAL_ACK_TIMER=120
+RUN_ROOT=C:\code\CN-Lab1-Windows-VS2017\docs\测试记录\4.3-ACK搭载定时器\ack-opt-dt2200-bg3-20260516-211648

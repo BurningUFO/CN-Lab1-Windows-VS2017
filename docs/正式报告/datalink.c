@@ -5,7 +5,6 @@
 #include "datalink.h"
 
 #define MAX_SEQ 15
-// SR窗口取序号空间一半，避免回绕歧义。
 #define NR_BUFS ((MAX_SEQ + 1) / 2)
 
 #define DATA_TIMER 2200
@@ -26,16 +25,12 @@ struct FRAME {
     unsigned int padding;
 };
 
-// 发送窗口：[ack_expected, next_frame_to_send)。
 static unsigned char ack_expected = 0;
 static unsigned char next_frame_to_send = 0;
-
-// 接收窗口：[frame_expected, too_far)。
 static unsigned char frame_expected = 0;
 static unsigned char too_far = NR_BUFS;
 static unsigned char nbuffered = 0;
 
-// 序号会回绕，缓存下标用seq % NR_BUFS。
 static unsigned char out_buf[NR_BUFS][PKT_LEN];
 static unsigned char in_buf[NR_BUFS][PKT_LEN];
 static int arrived[NR_BUFS];
@@ -53,19 +48,16 @@ static unsigned char inc_seq(unsigned char n)
 
 static int between(unsigned char a, unsigned char b, unsigned char c)
 {
-    // 判断b是否在循环区间[a, c)内。
     return ((a <= b) && (b < c)) || ((c < a) && (a <= b)) || ((b < c) && (c < a));
 }
 
 static unsigned char current_ack(void)
 {
-    // 累计ACK：确认最后一个已按序交付帧。
     return frame_expected == 0 ? MAX_SEQ : frame_expected - 1;
 }
 
 static int can_queue_frame(void)
 {
-    // 限制物理层队列，避免ACK/NAK排队过久。
     return phl_ready || phl_sq_len() < MAX_PHL_BACKLOG;
 }
 
@@ -93,7 +85,6 @@ static void queue_ack(void)
 
 static void request_nak(void)
 {
-    // 对当前缺失帧只发一次NAK。
     if (!no_nak)
         return;
 
@@ -111,7 +102,6 @@ static void send_frame_kind(unsigned char kind, unsigned char frame_nr)
 
     memset(&s, 0, sizeof s);
     s.kind = kind;
-    // 所有发出的帧都搭载最新累计ACK。
     s.ack = current_ack();
 
     if (kind == FRAME_DATA) {
@@ -147,7 +137,6 @@ static void maybe_send_control_frame(void)
 
 static void handle_ack(unsigned char ack)
 {
-    // 根据累计ACK滑动发送窗口。
     while (between(ack_expected, ack, next_frame_to_send)) {
         dbg_frame("Acked DATA %d, slide SEND window\n", (int)ack_expected);
         stop_timer(ack_expected);
@@ -160,7 +149,6 @@ static void deliver_frames(void)
 {
     int delivered = 0;
 
-    // 只向上层交付接收窗口中的连续前缀。
     while (arrived[frame_expected % NR_BUFS]) {
         int index;
 
@@ -171,8 +159,6 @@ static void deliver_frames(void)
         frame_expected = inc_seq(frame_expected);
         too_far = inc_seq(too_far);
         no_nak = 1;
-
-
         delivered = 1;
     }
 
@@ -217,7 +203,6 @@ int main(int argc, char **argv)
         case FRAME_RECEIVED:
             len = recv_frame((unsigned char *)&f, sizeof f);
             if (len < CTRL_FRAME_LEN || crc32((unsigned char *)&f, len) != 0) {
-                // 坏帧丢弃，并请求对方重传缺失帧。
                 dbg_warning("**** Receiver Error, Bad CRC Checksum\n");
                 request_nak();
                 break;
@@ -234,7 +219,6 @@ int main(int argc, char **argv)
                 dbg_frame("Recv DATA %d %d, ID %d\n", (int)f.seq, (int)f.ack, *(unsigned short *)f.data);
 
                 if (between(frame_expected, f.seq, too_far)) {
-                    // 窗口内数据先缓存，再按序交付。
                     if (f.seq != frame_expected)
                         request_nak();
                     else
@@ -274,7 +258,6 @@ int main(int argc, char **argv)
                 }
 
                 resend = inc_seq(f.ack);
-                // NAK请求重传ack后的第一帧。
                 dbg_frame("Recv NAK  %d\n", (int)resend);
 
                 if (between(ack_expected, resend, next_frame_to_send)) {
@@ -307,7 +290,6 @@ int main(int argc, char **argv)
 
         maybe_send_control_frame();
 
-        // 发送窗口或链路队列满时暂停网络层。
         if (nbuffered < NR_BUFS && can_queue_frame())
             enable_network_layer();
         else
